@@ -8,8 +8,8 @@
             "mẹ"
         ],
         "Id": [
-            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE",
-            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1e",
+            "o.OiU8vS1dWYWUY1cx9Qjxxxxx"
         ],
         "Names_Id": [
             "bố long",
@@ -72,10 +72,10 @@
     },
     "Home_Assistant": {
         "control": "Enabled",
-        "external_url": "http://vipi.duckdns.org:8123",
-        "internal_url": "http://192.168.1.150:8123",
+        "external_url": "http://XXXX",
+        "internal_url": "http://XXXX",
         "ratio": 75,
-        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1N2JjMTJjZDJkMWM0ZjBlYTY5OWNjNmM3MWMzNzc1NyIsImlhdCI6MTY1OTU5NDc4NywiZXhwIjoxOTc0OTU0Nzg3fQ.qTC4WCHm8kVnFsZqOFRv6-Lo37wuZjvLne239H4iltg"
+        "token": "XXXX.eyJpc3MiOiI1N2JjMTJjZDJkMWM0ZjBlYTY5OWNjNmM3MWMzNzc1NyIsImlhdCI6MTY1OTU5NDc4NywiZXhwIjoxOTc0OTU0Nzg3fQ.qTC4WCHm8kVnFsZqOFRv6-Lo37wuZjvLne239H4iltg"
     },
     "IR": {
         "Codes": [
