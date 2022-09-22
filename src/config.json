@@ -1,15 +1,34 @@
 {
     "Boss": "Minh Anh",
     "Use_Google_Assistant": "OK",
-    "Sent_voice": {
-        "Control": "Enabled",
+    "Pushbullet": {
+        "Control": "Disabled",
         "Names": [
             "bố",
             "mẹ"
         ],
         "Id": [
-            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1e",
-            "o.OiU8vS1dWYWUY1cx9Qjxxxxx"
+            "o.OiU8vS1dWYWUY1cx9QjPXXXX",
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
+        ],
+        "Names_Id": [
+            "bố long",
+            "mẹ hằng"
+        ]
+    },
+    "Telegram": {
+        "Control": "Enabled",
+        "Names": [
+            "bố",
+            "mẹ"
+        ],
+        "Token": [
+            "XXXXXXXXXXXXX",
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
+        ],
+        "Chat_Id": [
+            "-674784XXX",
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
         ],
         "Names_Id": [
             "bố long",
@@ -72,10 +91,10 @@
     },
     "Home_Assistant": {
         "control": "Enabled",
-        "external_url": "http://XXXX",
-        "internal_url": "http://XXXX",
+        "external_url": "http://vipi.duckdns.org:8123",
+        "internal_url": "http://192.168.1.150:8123",
         "ratio": 75,
-        "token": "XXXX.eyJpc3MiOiI1N2JjMTJjZDJkMWM0ZjBlYTY5OWNjNmM3MWMzNzc1NyIsImlhdCI6MTY1OTU5NDc4NywiZXhwIjoxOTc0OTU0Nzg3fQ.qTC4WCHm8kVnFsZqOFRv6-Lo37wuZjvLne239H4iltg"
+        "token": "XXXXX.eyJpc3MiOiI1N2JjMTJjZDJkMWM0ZjBlYTY5OWNjNmM3MWMzNzc1NyIsImlhdCI6MTY1OTU5NDc4NywiZXhwIjoxOTc0OTU0Nzg3fQ.qTC4WCHm8kVnFsZqOFRv6-Lo37wuZjvLne239H4iltg"
     },
     "IR": {
         "Codes": [
@@ -212,7 +231,7 @@
         ]
     },
     "TextToSpeech": {
-        "Choice": "GTTS",
+        "Choice": "ZTTS",
         "Speed": 0.9,
         "Quality": 1,
         "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
@@ -225,7 +244,7 @@
     },
     "Wakewords": {
         "Custom_Wakeword": "Enabled",
-        "Ok_Google": "Enabled",
+        "Ok_Google": "Disabled",
         "Picovoice_wakeword_models": [
             "/home/pi/ViPi/src/resources/picovoice_models/hey siri_raspberry-pi.ppn",
             "/home/pi/ViPi/src/resources/picovoice_models/ok google_raspberry-pi.ppn",
