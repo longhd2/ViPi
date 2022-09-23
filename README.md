@@ -1,7 +1,7 @@
 # ViPi: Bản test
 Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
 
-## Hướng dẫn
+## Tải về
 ```sh
 sudo apt-get install git
 git clone https://github.com/longhd2/ViPi
@@ -16,6 +16,7 @@ sudo reboot
 speaker-test
 ```
 ## Cài đặt chương trình:
+```sh
 cd /home/${USER}/
 sudo chmod +x ./ViPi/scripts/installer.sh && sudo  ./ViPi/scripts/installer.sh
 ```
