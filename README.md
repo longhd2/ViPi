@@ -6,7 +6,8 @@
 sudo apt-get install git
 git clone https://github.com/longhd2/ViPi
 ```
-## Cài đặt Mic HAT:
+## Cài đặt driver Mic;
+## Mic HAT
 ```sh
 sudo apt-get update
 cd /home/${USER}/
@@ -15,6 +16,16 @@ sudo chmod +x ./ViPi/drivers/MIC-HAT/scripts/mic-hat.sh && sudo ./ViPi/drivers/M
 sudo reboot
 speaker-test
 ```
+
+## Mic USB
+```sh
+sudo apt-get update
+cd /home/${USER}/
+sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh && sudo ./ViPi/drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh
+speaker-test
+```
+
+
 ## Cài đặt chương trình:
 ```sh
 cd /home/${USER}/
