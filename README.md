@@ -1,5 +1,5 @@
 # ViPi: Bản test
-
+Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
 
 ##Hướng dẫn
 sudo apt-get install git
