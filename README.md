@@ -29,7 +29,7 @@ speaker-test
 + hãy kiểm tra lại Mic nhận ở card nào+
 sudo apt-get update
 cd /home/${USER}/
-sudo chmod +x ./ViPi/drivers/MIC-RUM/configure.sh && sudo ././ViPi/drivers/MIC-RUM/configure.sh
+sudo chmod +x ./ViPi/drivers/MIC-RUM/configure.sh && sudo ./ViPi/drivers/MIC-RUM/configure.sh
 sudo reboot
 
 cd /home/${USER}/
