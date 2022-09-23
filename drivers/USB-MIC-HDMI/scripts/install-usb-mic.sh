@@ -26,8 +26,8 @@ if [ -f $audioconfig ] ; then
     sudo rm $audioconfig
 fi
 
-echo 'USB-MIC-HDMI' >> $audioconfig
+echo 'RUM' >> $audioconfig
 
 sudo cp scripts/asound.conf "$global_asoundrc"
 sudo cp scripts/.asoundrc "$asoundrc"
-echo "Installing USB MIC and HDMI AUDIO OUT config"
+echo "Installing MIC RUM"
