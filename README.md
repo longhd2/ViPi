@@ -17,7 +17,7 @@ sudo reboot
 speaker-test
 ```
 
-## Mic USB
+## Mic USB + Audio 3.5mm Raspberry
 ```sh
 sudo apt-get update
 cd /home/${USER}/
