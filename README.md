@@ -21,10 +21,21 @@ speaker-test
 ```sh
 sudo apt-get update
 cd /home/${USER}/
-sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh && sudo ./ViPi/drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh
+sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh && sudo ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh
 speaker-test
 ```
+## Mic USB + Audio mic (MIC-RUM HOẶC CÁC LOẠI MIC CẮP QUA CỔNG USB)
+```sh
++ hãy kiểm tra lại Mic nhận ở card nào+
+sudo apt-get update
+cd /home/${USER}/
+sudo chmod +x ./ViPi/drivers/MIC-RUM/configure.sh && sudo ././ViPi/drivers/MIC-RUM/configure.sh
+sudo reboot
 
+cd /home/${USER}/
+sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh && sudo ./ViPi/drivers/MIC-RUM/install-usb-mic/install-usb-mic.sh
+speaker-test
+```
 
 ## Cài đặt chương trình:
 ```sh
