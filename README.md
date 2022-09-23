@@ -1,11 +1,11 @@
 # ViPi: Bản test
 Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
 
-##Hướng dẫn
+## Hướng dẫn
 sudo apt-get install git
 git clone https://github.com/longhd2/ViPi
 
-##Cài đặt Mic HAT:
+## Cài đặt Mic HAT:
 sudo apt-get update
 cd /home/${USER}/
 sudo chmod +x ./ViPi/audio-drivers/MIC-HAT/scripts/install-i2s.sh && sudo ./ViPi/audio-drivers/MIC-HAT/scripts/install-i2s.sh
