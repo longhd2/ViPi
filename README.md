@@ -33,7 +33,7 @@ sudo chmod +x ./ViPi/drivers/MIC-RUM/configure.sh && sudo ./ViPi/drivers/MIC-RUM
 sudo reboot
 
 cd /home/${USER}/
-sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh && sudo ./ViPi/drivers/MIC-RUM/install-usb-mic/install-usb-mic.sh
+sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh && sudo ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
 speaker-test
 ```
 
