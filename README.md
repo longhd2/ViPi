@@ -10,8 +10,8 @@ git clone https://github.com/longhd2/ViPi
 ```sh
 sudo apt-get update
 cd /home/${USER}/
-sudo chmod +x ./ViPi/audio-drivers/MIC-HAT/scripts/install-i2s.sh && sudo ./ViPi/audio-drivers/MIC-HAT/scripts/install-i2s.sh
-sudo chmod +x ./ViPi/audio-drivers/MIC-HAT/scripts/mic-hat.sh && sudo ./ViPi/audio-drivers/MIC-HAT/scripts/mic-hat.sh
+sudo chmod +x ./ViPi/drivers/MIC-HAT/scripts/install-i2s.sh && sudo ./ViPi/drivers/MIC-HAT/scripts/install-i2s.sh
+sudo chmod +x ./ViPi/drivers/MIC-HAT/scripts/mic-hat.sh && sudo ./ViPi/drivers/MIC-HAT/scripts/mic-hat.sh
 sudo reboot
 speaker-test
 ```
