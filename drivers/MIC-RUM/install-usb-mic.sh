@@ -22,11 +22,11 @@ for rcfile in "$asoundrc" "$global_asoundrc"; do
   fi
 done
 
-if [ -f $audioconfig ] ; then
-    sudo rm $audioconfig
-fi
+#if [ -f $audioconfig ] ; then
+#    sudo rm $audioconfig
+#fi
 
-echo 'RUM' >> $audioconfig
+#echo 'RUM' >> $audioconfig
 
 sudo cp scripts/asound.conf "$global_asoundrc"
 sudo cp scripts/.asoundrc "$asoundrc"
