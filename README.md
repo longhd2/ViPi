@@ -29,18 +29,21 @@ speaker-test
 + hãy kiểm tra lại Mic nhận ở card nào+
 sudo apt-get update
 cd /home/${USER}/
-sudo chmod +x ./ViPi/drivers/MIC-RUM/disable-onboard.sh && sudo ./ViPi/drivers/MIC-RUM/disable-onboard.sh
+sudo chmod +x ./ViPi/drivers/MIC-RUM/disable-onboard.sh
+sudo ./ViPi/drivers/MIC-RUM/disable-onboard.sh
 sudo reboot
 
 cd /home/${USER}/
-sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh && sudo ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
+sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
+sudo ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
 speaker-test
 ```
 
 ## Cài đặt chương trình:
 ```sh
 cd /home/${USER}/
-sudo chmod +x ./ViPi/scripts/installer.sh && sudo  ./ViPi/scripts/installer.sh
+sudo chmod +x ./ViPi/scripts/installer.sh
+sudo ./ViPi/scripts/installer.sh
 ```
 ## Chạy thủ công:
 ```sh
