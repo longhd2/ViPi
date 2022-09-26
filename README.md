@@ -1,4 +1,4 @@
-³# ViPi: Bản test
+# ViPi: Bản test
 Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
 
 ## Tải về
