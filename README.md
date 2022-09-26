@@ -41,7 +41,7 @@ speaker-test
 ```
 2/ Nếu lỗi hãy chạy thủ công!
 ### Khai báo khi sử dụng Mic Usb:
-Lệnh Thống kê ID của Mic USB và Loa
+Kiểm tra Mic, Led hoạt động ở card nào, hãy điền đúng vào file config
 ```sh
 arecord -l
 aplay -l
@@ -77,7 +77,7 @@ pcm.!default {
 }
 
 ```
-Sau đó chạy lệnh, 
+Bấm Ctr+X+Y để lưu lại Sau đó chạy lệnh 2 lệnh sau: 
 ```sh
 sudo cp /home/pi/.asoundrc /etc/asound.conf
 sudo usermod -aG root pi
