@@ -41,7 +41,7 @@ speaker-test
 ```
 2/ Nếu lỗi hãy chạy thủ công!
 ### Khai báo khi sử dụng Mic Usb:
-Kiểm tra Mic, Led hoạt động ở card nào, hãy điền đúng vào file config
+Kiểm tra Mic, âm thanh hoạt động ở card nào bằng 2 lệnh dưới và thay thế đúng vào vào file .asoundrc bên dưới
 ```sh
 arecord -l
 aplay -l
