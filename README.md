@@ -25,6 +25,7 @@ sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh && sudo ./ViPi
 speaker-test
 ```
 ## Mic USB + Audio mic (MIC-RUM HOẶC CÁC LOẠI MIC CẮP QUA CỔNG USB)
+1/ Chạy tự động;
 ```sh
 + hãy kiểm tra lại Mic nhận ở card nào+
 sudo apt-get update
@@ -38,6 +39,50 @@ sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
 sudo ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
 speaker-test
 ```
+2/ Nếu lỗi hãy chạy thủ công!
+### Khai báo khi sử dụng Mic Usb:
+Lệnh Thống kê ID của Mic USB và Loa
+```sh
+arecord -l
+aplay -l
+```
+Chạy lệnh sau
+```sh
+sudo nano /home/pi/.asoundrc
+```
+Cửa sổ nano hiện lên, paste dòng sau, thay thế ID mic, loa phù hợp
+
+```sh
+pcm.dsnooper {
+    type dsnoop
+    ipc_key 816357492
+    ipc_key_add_uid 0
+    ipc_perm 0666
+    slave {
+        pcm "hw:1,0"
+        channels 1
+    }
+}
+
+pcm.!default {
+        type asym
+        playback.pcm {
+                type plug
+                slave.pcm "hw:0,0"
+        }
+        capture.pcm {
+                type plug
+                slave.pcm "dsnooper"
+        }
+}
+
+```
+Sau đó chạy lệnh, 
+```sh
+sudo cp /home/pi/.asoundrc /etc/asound.conf
+sudo usermod -aG root pi
+```
+
 
 ## Cài đặt chương trình:
 ```sh
