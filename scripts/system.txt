@@ -25,3 +25,4 @@ libsox-fmt-mp3
 build-essential
 mpg123
 portaudio19-dev
+supervisor
