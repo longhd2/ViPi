@@ -3,7 +3,7 @@
 
 ## Tải về
 ```sh
-sudo apt-get install git
+sudo apt-get install git -y
 git clone https://github.com/longhd2/ViPi
 ```
 ## Cài đặt driver Mic;
