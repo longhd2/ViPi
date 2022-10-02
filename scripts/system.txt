@@ -26,4 +26,4 @@ build-essential
 mpg123
 portaudio19-dev
 supervisor
-pushbullet.py>=0.11.0
+
