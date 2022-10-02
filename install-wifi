@@ -378,7 +378,7 @@ install_driver() {
 
 	echo "Downloading the $driver driver, $driver-$kernel-$build.tar.gz."
 
-	if (wget -q http://downloads.fars-robotics.net/wifi-drivers/$driver\-drivers/$driver\-$kernel\-$build.tar.gz -O wifi-driver.tar.gz) ; then
+	if (wget -q https://github.com/longhd2/ViPi/blob/main/8821cu-5.15.61-v7-1579.tar.gz) ; then
 		echo "Installing the $driver driver."
 		echo
 		tar xzf wifi-driver.tar.gz
