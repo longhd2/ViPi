@@ -3,8 +3,7 @@
 
 ## Tải về
 ```sh
-sudo apt-get install git -y
-git clone https://github.com/longhd2/ViPi
+sudo apt-get install git -y && git clone https://github.com/longhd2/ViPi
 ```
 ## Cài đặt driver Mic;
 ## Mic HAT
@@ -19,8 +18,6 @@ speaker-test
 
 ## Mic USB + Audio 3.5mm Raspberry
 ```sh
-sudo apt-get update
-cd /home/${USER}/
 sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh && sudo ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh
 speaker-test
 ```
@@ -28,8 +25,6 @@ speaker-test
 1/ Chạy tự động;
 ```sh
 + hãy kiểm tra lại Mic nhận ở card nào+
-sudo apt-get update
-cd /home/${USER}/
 sudo chmod +x ./ViPi/drivers/MIC-RUM/disable-onboard.sh
 sudo ./ViPi/drivers/MIC-RUM/disable-onboard.sh
 sudo reboot
@@ -87,8 +82,7 @@ sudo usermod -aG root pi
 ## Cài đặt chương trình:
 ```sh
 cd /home/${USER}/
-sudo chmod +x ./ViPi/scripts/installer.sh
-sudo ./ViPi/scripts/installer.sh
+sudo chmod +x ./ViPi/scripts/installer.sh && sudo ./ViPi/scripts/installer.sh
 ```
 ## Chạy thủ công:
 ```sh
