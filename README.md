@@ -18,7 +18,7 @@ speaker-test
 
 ## Mic USB + Audio 3.5mm Raspberry
 ```sh
-sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh && sudo ./ViPi/drivers/USB-MIC-JACK/usb-mic-onboard-jack.sh
+sudo chmod +x ./ViPi/drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh && sudo ./ViPi/drivers/USB-MIC-JACK/scripts/usb-mic-onboard-jack.sh
 speaker-test
 ```
 ## Mic USB + Audio mic (MIC-RUM HOẶC CÁC LOẠI MIC CẮP QUA CỔNG USB)
