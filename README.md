@@ -24,14 +24,9 @@ speaker-test
 ## Mic USB + Audio mic (MIC-RUM HOẶC CÁC LOẠI MIC CẮP QUA CỔNG USB)
 1/ Chạy tự động;
 ```sh
-+ hãy kiểm tra lại Mic nhận ở card nào+
-sudo chmod +x ./ViPi/drivers/MIC-RUM/disable-onboard.sh
-sudo ./ViPi/drivers/MIC-RUM/disable-onboard.sh
-sudo reboot
-
-cd /home/${USER}/
-sudo chmod +x ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
-sudo ./ViPi/drivers/MIC-RUM/install-usb-mic.sh
++ hãy kiểm tra lại Mic nhận ở card nào, hiện đang khai mặc định ở card 1+
+sudo chmod +x ./ViPi/drivers/MIC-RUM/scripts/disable-onboard.sh && sudo ./ViPi/drivers/MIC-RUM/scripts/disable-onboard.sh
+sudo chmod +x ./ViPi/drivers/MIC-RUM/scripts/usb-mic-rum.sh && sudo ./ViPi/drivers/MIC-RUM/scripts/usb-mic-rum.sh
 speaker-test
 ```
 2/ Nếu lỗi hãy chạy thủ công!
