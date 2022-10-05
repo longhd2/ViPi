@@ -26,6 +26,7 @@ speaker-test
 ```sh
 + hãy kiểm tra lại Mic nhận ở card nào, hiện đang khai mặc định ở card 1+
 sudo chmod +x ./ViPi/drivers/MIC-RUM/scripts/disable-onboard.sh && sudo ./ViPi/drivers/MIC-RUM/scripts/disable-onboard.sh
+sudo reboot
 sudo chmod +x ./ViPi/drivers/MIC-RUM/scripts/usb-mic-rum.sh && sudo ./ViPi/drivers/MIC-RUM/scripts/usb-mic-rum.sh
 speaker-test
 ```
