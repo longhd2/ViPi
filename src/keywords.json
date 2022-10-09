@@ -163,6 +163,10 @@
 			"tốc độ đường truyền",
 			"chất lượng đường truyền"
 		],
+		"app_read_ip": [
+			"ip",
+			"địa chỉ"
+		],
 		"sma_on_all": [
 			"bật tất cả",
 			"bật hết",
