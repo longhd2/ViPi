@@ -1,0 +1,17 @@
+2022-10-09 23:32:51,556 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:51,557 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:51,559 : DEBUG : Making request: POST https://accounts.google.com/o/oauth2/token
+2022-10-09 23:32:51,566 : DEBUG : Starting new HTTPS connection (1): accounts.google.com:443
+2022-10-09 23:32:51,886 : DEBUG : https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2022-10-09 23:32:52,820 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:52,821 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:52,823 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:52,824 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:52,825 : DEBUG : Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2022-10-09 23:32:52,836 : DEBUG : Starting new HTTPS connection (1): embeddedassistant.googleapis.com:443
+2022-10-09 23:32:52,843 : INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.88:5002
+2022-10-09 23:32:52,846 : INFO : [33mPress CTRL+C to quit[0m
+2022-10-09 23:32:53,115 : DEBUG : https://embeddedassistant.googleapis.com:443 "GET /v1alpha2/projects/new-vipi-dev/devices/D8544BEDE848DB58A49F2511AF28E8CE HTTP/1.1" 400 None
