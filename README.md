@@ -87,6 +87,7 @@ python3 ./ViPi/src/start.py
 ## 8.Thiết lập chạy tự động:
 a. Chạy tự động với supervisor:
 ```sh
+sudo python3 -m pip install supervisor
 sudo nano /etc/supervisor/conf.d/ViPi.conf
 ```
 Cửa sổ nano hiện lên, paste dòng sau
@@ -115,5 +116,6 @@ username=user
 password=pass
 ```
 Ctrn + X, Y, enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
-Done!
+
+# Done!
 
