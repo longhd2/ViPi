@@ -184,12 +184,12 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
      - ok google, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
      - ok google, bật đèn phòng khách tắt đèn phòng ngủ thời tiết hôm nay
 # 12. Custom_Skill:
- a. Cấu trúc, Ví dụ
+a. Cấu trúc, Ví dụ
     - Để thêm skill cho bot, các bạn xem hướng dẫn và skill ví dụ trong file cus_skill
-b. Ví dụ
-- Ví dụ skill cus_fire_name
+b Ví dụ
+    - Ví dụ skill cus_fire_name
 
-a). Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
+a) Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
 ```sh
 	"keyword": {
 		"cus_fire_name": [
