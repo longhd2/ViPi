@@ -188,7 +188,8 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
     - Để thêm skill cho bot, các bạn xem hướng dẫn và skill ví dụ trong file cus_skill
 b. Ví dụ
 - Ví dụ skill cus_fire_name
-a) Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
+
+a). Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
 ```sh
 	"keyword": {
 		"cus_fire_name": [
@@ -196,7 +197,7 @@ a) Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt
 	    },
 ```
         
-b) Mở file cus_skill thêm skill vào nội dung bạn muốn:
+b). Mở file cus_skill thêm skill vào nội dung bạn muốn:
 ```sh
 	if skill=='cus_fire_name':
 	    answer=['bệ phóng đã sẵn sàng', 'tên lửa đã sãn sàng, chờ lệnh']
