@@ -130,10 +130,25 @@ Chúc các bạn thành công!
 
 # B: TÍNH NĂNG:
 # 1. ÂM NHẠC:
+    a. Mở nhạc
+    b. Điều khiển nhạc
+    c. Điều chỉnh âm lượng
 # 2. SMARTHOME:
-# 3. ĐỒNG HỒ:
-# 4. NGÀY THÁNG:
+    a. Điều khiển thiết bị
+    b. Điều khiển kịch bản
+    c. Tra cứu trạng thái
+# 3. ĐỒNG HỒ & NGÀY THÁNG:
+    a. Hỏi thời gian
+    b. hỏi ngày tháng
+    c. Hỏi âm lịch
 # 5. THÔNG TIN:
+    a. Hỏi thời tiết
+    b. Hỏi tin tức
+        - ok google, hôm nay có tin gì mới
+        - ok google, đọc tin thể thao
+    c. Tra cứu thông tin covid:
+        - ok google, tin tức về covid
+        - ok google, Việt Nam có bao nhiêu ca covid
 # 6. TRẺ EM:
 # 7. TIỆN ÍCH:
 # 8. TRA CỨU:
