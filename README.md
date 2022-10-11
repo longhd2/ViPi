@@ -168,7 +168,15 @@ Chúc các bạn thành công!
      - Bot hỗ trợ 9 kênh radio sau:
     a. Mở radio
     b. Tắt radio
-# 10. Custom_Skill:
+# 10. Gửi tin nhắn đến Telegram
+     a. Kích hoạt
+        - ok google, gửi lời nhắn cho bố
+     b. Đọc nội dung cần gửi
+# 11. Điều khiển thiết bị chromcast:
+     a. Mở chromecast
+       -
+     b. Điều khiển âm lượng thiết bị chromecast
+# 12. Custom_Skill:
     Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
 
     a. Cấu trúc
