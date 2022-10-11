@@ -94,7 +94,8 @@ Cửa sổ nano hiện lên, paste dòng sau
 ```sh
 [program:ViPi]
 directory=/home/pi
-command=/Đoạn này chưa chính xác, cập nhật sau'
+command=/bin/bash -c 'python3 ./ViPi/src/start.py'
+environment = LD_PRELOAD="/usr/lib/arm-linux-gnueabihf/libatomic.so.1.2.0"
 numprocs=1
 autostart=true
 autorestart=true
@@ -113,7 +114,7 @@ Sau đó paste dòng này vào:
 [inet_http_server]
 port=*:9001
 username=user
-password=pass
+password=123
 ```
 Ctrn + X, Y, enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
 
