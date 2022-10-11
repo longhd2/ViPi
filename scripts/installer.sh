@@ -180,6 +180,7 @@ pip install google-assistant-sdk[samples]==0.6.0
           # --save --headless --client-secrets ${GIT_DIR}/json/.vipi.json
 
 
+
 echo ""
 echo ""
 sudo mv ${GIT_DIR}/scripts/wifi-connect-start.service /lib/systemd/system/wifi-connect-start.service
