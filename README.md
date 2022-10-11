@@ -127,19 +127,19 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
 Chúc các bạn thành công!
 
 # B: TÍNH NĂNG:
-# 1. ÂM NHẠC:
+# 1. Âm nhạc:
     a. Mở nhạc
     b. Điều khiển nhạc
     c. Điều chỉnh âm lượng
-# 2. SMARTHOME:
+# 2. Smarthome:
     a. Điều khiển thiết bị
     b. Điều khiển kịch bản
     c. Tra cứu trạng thái
-# 3. ĐỒNG HỒ & NGÀY THÁNG:
+# 3. Đồng hồ & ngày giờ:
     a. Hỏi thời gian
     b. hỏi ngày tháng
     c. Hỏi âm lịch
-# 5. THÔNG TIN:
+# 4. Tra cứu thông tin:
     a. Hỏi thời tiết
     b. Hỏi tin tức
         - ok google, hôm nay có tin gì mới
@@ -147,8 +147,22 @@ Chúc các bạn thành công!
     c. Tra cứu thông tin covid:
         - ok google, tin tức về covid
         - ok google, Việt Nam có bao nhiêu ca covid
-# 6. TRẺ EM:
-# 7. TIỆN ÍCH:
-# 8. TRA CỨU:
+# 5. Trẻ em:
+    a. Kể chuyện
+    b. Đánh vần
+# 6. Tiện ích:
+    a. Tính toán
+    b. Chọn số ngẫu nhiên
+    c. Hỏi giá vàng
+    d. Hỏi giá ngoại tệ
+# 7. Tra cứu:
+    a. Tra cứu thông tin người nổi tiếng
+    b. Tra cứu thông tin địa danh
+    c. Tra cứu thông tin tổ chức
+    d. Tra cứu thông tin văn học
+    e. Hỏi đáp kiến thức
+# 8. Custom_skills
+    Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
+
 
 Viết trước cái sườn hôn nào rảnh cập nhật sau:
