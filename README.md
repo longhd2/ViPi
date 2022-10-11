@@ -164,7 +164,11 @@ Chúc các bạn thành công!
 # 8. Chế độ trò truyện liên tục
     a. Bật chế độ hội thoại
     b. Tắt chế độ hội thoại
-# 9. Custom_skills
+# 9. Nghe radio:
+     - Bot hỗ trợ 9 kênh radio sau:
+    a. Mở radio
+    b. Tắt radio
+# 9. Custom_Skill:
     Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
 
     a. Cấu trúc
