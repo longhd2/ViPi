@@ -84,7 +84,7 @@ sudo chmod +x ./ViPi/scripts/installer.sh && sudo ./ViPi/scripts/installer.sh
 ```sh
 python3 ./ViPi/src/start.py
 ```
-## 8.Thiết lập chạy tự động:
+## Thiết lập chạy tự động:
 Chạy tự động với supervisor:
 ```sh
 sudo python3 -m pip install supervisor
@@ -168,7 +168,7 @@ Chúc các bạn thành công!
      - Bot hỗ trợ 9 kênh radio sau:
     a. Mở radio
     b. Tắt radio
-# 9. Custom_Skill:
+# 10. Custom_Skill:
     Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
 
     a. Cấu trúc
