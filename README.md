@@ -168,17 +168,21 @@ Chúc các bạn thành công!
      - Bot hỗ trợ 9 kênh radio sau:
     a. Mở radio
     b. Tắt radio
-# 10. Gửi tin nhắn đến Telegram
+# 10. Gửi tin nhắn đến Telegram:
      a. Kích hoạt
         - ok google, gửi lời nhắn cho bố
      b. Đọc nội dung cần gửi
-# 11. Điều khiển thiết bị chromcast:
-     a. Mở chromecast
-       -
+        - bố ơi về đi, con đói bụng lắm rồi
+# 11. Điều khiển thiết bị chromecast:
+     a. Mở thiết bị chromecast
+       - ok google, phát bài hát vĩnh biệt màu xanh trên tivi
      b. Điều khiển âm lượng thiết bị chromecast
+       - ok google, tăng âm lượng trên tivi
+# 12. Đa lệnh
+     - ok google, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
 # 12. Custom_Skill:
     Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
 
     a. Cấu trúc
     b. Ví dụ
-Viết trước cái sườn hôn nào rảnh cập nhật sau:
+Viết trước cái sườn hôm nào rảnh cập nhật sau:
