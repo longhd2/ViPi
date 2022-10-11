@@ -1,6 +1,6 @@
 # ViPi: Bản test
 Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
-
+# A: CẤU HÌNH & CÀI ĐẶT:
 ## Tải về
 ```sh
 sudo apt-get install git -y && git clone https://github.com/longhd2/ViPi
@@ -126,5 +126,16 @@ password=123
 Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
 
 # Để xem Log hoạt động vào thư mục home/pi/ViPi.log
-# Done!
+Chúc các bạn thành công!
 
+# B: TÍNH NĂNG:
+# 1. ÂM NHẠC:
+# 2. SMARTHOME:
+# 3. ĐỒNG HỒ:
+# 4. NGÀY THÁNG:
+# 5. THÔNG TIN:
+# 6. TRẺ EM:
+# 7. TIỆN ÍCH:
+# 8. TRA CỨU:
+
+Viết trước cái sườn hôn nào rảnh cập nhật sau:
