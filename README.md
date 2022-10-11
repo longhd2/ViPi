@@ -101,8 +101,11 @@ autostart=true
 autorestart=true
 user=pi
 ```
-Ctrl + X, Y, Enter để save 
+như hình:
 ![image](https://user-images.githubusercontent.com/43842525/194978400-3928dde8-fe50-4642-863a-92325ddf9b68.png)
+
+
+# Sau đó gõ: Ctrl + X, Y, Enter để save 
 Chạy lệnh sau để khởi động chạy tự động:
 ```sh
 sudo supervisorctl update
@@ -111,7 +114,7 @@ sudo supervisorctl update
 
 ```sh
 sudo nano /etc/supervisor/supervisord.conf
-``
+```
 Sau đó paste dòng này vào:
 ```sh
 [inet_http_server]
