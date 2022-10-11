@@ -123,7 +123,7 @@ Sau đó paste dòng này vào:
 ![image](https://user-images.githubusercontent.com/43842525/194978484-a9230eb2-3879-4e76-ab62-ff489c182db4.png)
 Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
 
-# Để xem Log hoạt động vào thư mục home/pi/ViPi.log
+    Để xem Log hoạt động vào thư mục home/pi/ViPi.log
 Chúc các bạn thành công!
 
 # B: TÍNH NĂNG:
@@ -161,8 +161,12 @@ Chúc các bạn thành công!
     c. Tra cứu thông tin tổ chức
     d. Tra cứu thông tin văn học
     e. Hỏi đáp kiến thức
-# 8. Custom_skills
+# 8. Chế độ trò truyện liên tục
+    a. Bật chế độ hội thoại
+    b. Tắt chế độ hội thoại
+# 9. Custom_skills
     Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
 
-
+    a. Cấu trúc
+    b. Ví dụ
 Viết trước cái sườn hôn nào rảnh cập nhật sau:
