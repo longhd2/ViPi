@@ -189,16 +189,16 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
 b. Ví dụ
 - Ví dụ skill cus_fire_name
 a) Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
-	"keyword": {
-		"cus_fire_name": [
-			"chuẩn bị tên lửa"
-	    },
+		"keyword": {
+			"cus_fire_name": [
+				"chuẩn bị tên lửa"
+		    },
         
 b) Mở file cus_skill thêm skill vào nội dung bạn muốn:
-        if skill=='cus_fire_name':
-            answer=['bệ phóng đã sẵn sàng', 'tên lửa đã sãn sàng, chờ lệnh']
-            answer=random.choice(answer)
-            print(answer)
+		if skill=='cus_fire_name':
+		    answer=['bệ phóng đã sẵn sàng', 'tên lửa đã sãn sàng, chờ lệnh']
+		    answer=random.choice(answer)
+		    print(answer)
             
 Chúc bạn thành công!
         
