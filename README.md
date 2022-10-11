@@ -162,8 +162,10 @@ Chúc các bạn thành công!
     d. Tra cứu thông tin văn học
     e. Hỏi đáp kiến thức
 # 8. Chế độ trò truyện liên tục
-    a. Bật chế độ hội thoại
+    a. Bật chế độ hội thoại: (hotword + ['hỏi đáp','hội thoại','trò chuyện','liên tục','nói chuyện'])
+        - ok google, bật hội thoại
     b. Tắt chế độ hội thoại
+        - Dừng lại, ngừng lại, thoát
 # 9. Nghe radio:
      - Bot hỗ trợ 9 kênh radio sau:
     a. Mở radio
@@ -171,6 +173,7 @@ Chúc các bạn thành công!
 # 10. Gửi tin nhắn đến Telegram:
      a. Kích hoạt
         - ok google, gửi lời nhắn cho bố
+        - ok google, nhắn tin cho mẹ
      b. Đọc nội dung cần gửi
         - bố ơi về đi, con đói bụng lắm rồi
 # 11. Điều khiển thiết bị chromecast:
@@ -180,6 +183,7 @@ Chúc các bạn thành công!
        - ok google, tăng âm lượng trên tivi
 # 12. Đa lệnh
      - ok google, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
+     - ok google, bật đèn phòng khách tắt đèn phòng ngủ thời tiết hôm nay
 # 12. Custom_Skill:
     Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
 
