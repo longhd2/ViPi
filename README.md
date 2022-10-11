@@ -124,7 +124,6 @@ Sau đó paste dòng này vào:
 Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
 
     Để xem Log hoạt động vào thư mục home/pi/ViPi.log
-Chúc các bạn thành công!
 
 # B: TÍNH NĂNG:
 # 1. Âm nhạc:
@@ -185,8 +184,22 @@ Chúc các bạn thành công!
      - ok google, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
      - ok google, bật đèn phòng khách tắt đèn phòng ngủ thời tiết hôm nay
 # 12. Custom_Skill:
-    Tính năng mở đang phát triển để các bạn có thể tự thêm skill cho bot
-
-    a. Cấu trúc
+    a. Cấu trúc, Ví dụ
+    - Để thêm skill cho bot, các bạn xem hướng dẫn và skill ví dụ trong file cus_skill
     b. Ví dụ
+    - Ví dụ skill cus_fire_name
+    a) Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
+	"keyword": {
+		"cus_fire_name": [
+			"chuẩn bị tên lửa"
+	    },
+        
+    b) Mở file cus_skill thêm skill vào nội dung bạn muốn:
+        if skill=='cus_fire_name':
+            answer=['bệ phóng đã sẵn sàng', 'tên lửa đã sãn sàng, chờ lệnh']
+            answer=random.choice(answer)
+            print(answer)
+            
+Chúc bạn thành công!
+        
 Viết trước cái sườn hôm nào rảnh cập nhật sau:
