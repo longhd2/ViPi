@@ -85,7 +85,7 @@ sudo chmod +x ./ViPi/scripts/installer.sh && sudo ./ViPi/scripts/installer.sh
 python3 ./ViPi/src/start.py
 ```
 ## 8.Thiết lập chạy tự động:
-a. Chạy tự động với supervisor:
+Chạy tự động với supervisor:
 ```sh
 sudo python3 -m pip install supervisor
 sudo nano /etc/supervisor/conf.d/ViPi.conf
@@ -101,15 +101,16 @@ autostart=true
 autorestart=true
 user=pi
 ```
+Ctrl + X, Y, Enter để save 
 ![image](https://user-images.githubusercontent.com/43842525/194978400-3928dde8-fe50-4642-863a-92325ddf9b68.png)
 Chạy lệnh sau để khởi động chạy tự động:
 ```sh
 sudo supervisorctl update
 ```
-Bật web ínterface để xem log cho nhanh
+## Bật web insterface để xem log cho nhanh
+
 ```sh
 sudo nano /etc/supervisor/supervisord.conf
-
 ``
 Sau đó paste dòng này vào:
 ```sh
@@ -117,11 +118,9 @@ Sau đó paste dòng này vào:
 port=*:9001
 username=user
 password=123
-
-
 ```
 ![image](https://user-images.githubusercontent.com/43842525/194978484-a9230eb2-3879-4e76-ab62-ff489c182db4.png)
-Ctrn + X, Y, enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
+Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
 
 # Done!
 
