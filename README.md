@@ -116,12 +116,10 @@ sudo supervisorctl update
 sudo nano /etc/supervisor/supervisord.conf
 ```
 Sau đó paste dòng này vào:
-```sh
-[inet_http_server]
-port=*:9001
-username=user
-password=123
-```
+    [inet_http_server]
+    port=*:9001
+    username=user
+    password=123
 ![image](https://user-images.githubusercontent.com/43842525/194978484-a9230eb2-3879-4e76-ab62-ff489c182db4.png)
 Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nhập http://ip_của_pi:9001 nhập username và pass ở trên để xem log:
 
