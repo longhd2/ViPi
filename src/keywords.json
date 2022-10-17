@@ -217,6 +217,27 @@
 			"tắt công tắc",
 			"ngắt công tắc"
 		],
+		"sma_on_climate": [
+			"bật điều hòa",
+			"mở điều hòa",
+			"bật máy lạnh"
+		],
+		"sma_set_climate": [
+			"điều chỉnh",
+			"chế độ "
+		],
+		"sma_off_climate": [
+			"tắt điều hòa",
+			"tắt máy lạnh"
+		],
+		"sma_on_vacuum": [
+			"bật robot",
+			"bật máy hút bụi"
+		],
+		"sma_off_vacuum": [
+			"tắt robot",
+			"tắt máy hút bụi"
+		],
 		"sma_on_socket": [
 			"bật ổ cắm",
 			"đóng điện ổ cắm",
@@ -233,9 +254,20 @@
 			"kéo rèm lên",
 			"kéo rèm ra"
 		],
-		"sma_close_cover": [
-			"đóng rèm",
-			"kéo rèm lại"
+		"sma_stop_cover": [
+			"dừng kéo rèm",
+			"ngừng kéo lên"
+		],
+		"sma_open_covertilt": [
+			"mở rèm nghiêng",
+			"kéo rèm nghiêng"
+		],
+		"sma_stop_covertilt": [
+			"dừng kéo rèm nghiêng"
+		],
+		"sma_close_covertilt": [
+			"đóng rèm nghiêng",
+			"kéo rèm nghiêng lại"
 		],
 		"sma_on_fan": [
 			"bật quạt",
