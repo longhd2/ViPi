@@ -329,13 +329,13 @@ install_wfc() {
 
     ensure curl -Ls "$_arch_url" | tar -xz -C "$_download_dir"
 
-    ensure sudo mv "$_download_dir/wifi-connect" $INSTALL_BIN_DIR
+    ensure sudo cp "$_download_dir/wifi-connect" $INSTALL_BIN_DIR
 
     ensure sudo mkdir -p $INSTALL_UI_DIR
 
     ensure sudo rm -rdf $INSTALL_UI_DIR
 
-    ensure sudo mv ${GIT_DIR}/scripts/ui $INSTALL_UI_DIR
+    ensure sudo cp ${GIT_DIR}/scripts/ui $INSTALL_UI_DIR
 
     ensure rm -rdf "$_download_dir"
 
