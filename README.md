@@ -212,5 +212,3 @@ bước 2). Mở file cus_skill thêm skill vào nội dung bạn muốn:
 Chúc bạn thành công!
         
 Viết trước cái sườn hôm nào rảnh cập nhật sau:
-pip config set global.disable-pip-version-check true
-
