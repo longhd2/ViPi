@@ -156,6 +156,7 @@ cd /home/${USER}/
 # env/bin/python3 -m pip install --upgrade pip setuptools wheel
 #source env/bin/activate
 pip install --upgrade pip setuptools wheel
+pip config set global.disable-pip-version-check true
 pip install -r ${GIT_DIR}/scripts/pip.txt
 pip install git+https://github.com/longhd2/pafy.git
 
