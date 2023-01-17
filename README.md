@@ -1,7 +1,7 @@
 # ViPi: bản test
 Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
 
-(khuyên dùng) Link tải IMG đã cài đặt đã cài driver ReSpeaker 2: https://vipiteam.page.link/img
+(khuyên dùng) Link tải IMG đã cài driver ReSpeaker 2: https://vipiteam.page.link/img
 
 Để trải nghiệm bản test tiến hành cài đặt như sau: 
 ```sh
