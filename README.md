@@ -3,7 +3,7 @@
 
 Link tải IMG đã cài đặt đã cài driver ReSpeaker 2: https://vipiteam.page.link/img
 
-**UPDATE NGÀY 17/01/2022
+** UPDATE NGÀY 17/01/2022
 - Để sử dụng không cần Đăng ký với google, hạn chế: Không sử dụng được hotword "OK Google" và STT chính hãng của googele nên tốc độ chậm hơn 1 chút
 - Để sử dụng chạy lệnh sau:
 
