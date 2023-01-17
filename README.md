@@ -1,4 +1,4 @@
-# ViPi: bản test
+# ViPi Assistant
 Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
 
 (Khuyên dùng) Link tải IMG đã cài driver ReSpeaker 2: https://vipiteam.page.link/img
@@ -11,7 +11,7 @@ sudo reboot
 ```
 
 **UPDATE NGÀY 17/01/2022
-- Để sử dụng không cần Đăng ký với google, hạn chế không sử dụng được hotword "OK Google" và STT chính hãng của googele nên tốc độ chậm hơn 1 chút
+- Để sử dụng không cần Đăng ký với google, hạn chế không sử dụng được hotword "OK Google" và STT chính hãng của google nên tốc độ chậm hơn 1 chút
 - Để sử dụng chạy lệnh sau:
 ```sh
 cd ./ViPi/src/easySpeech/
