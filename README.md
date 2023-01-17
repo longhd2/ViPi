@@ -10,9 +10,9 @@ git clone https://github.com/longhd2/ViPi.git
 sudo reboot
 ```
 
-**UPDATE NGÀY 17/01/2022
-- Để sử dụng không cần Đăng ký với google, hạn chế không sử dụng được hotword "OK Google" và STT chính hãng của google nên tốc độ chậm hơn 1 chút
-- Để sử dụng chạy lệnh sau:
+**UPDATE NGÀY 17/01/2023
+- Để sử dụng khi không xác thực được tài khoản với google, hạn chế không sử dụng được hotword "OK Google" và STT chính hãng của google, Không điều khiển được thiết bị trên HomeApp của google, tốc độ chậm hơn 1 chút
+
 ```sh
 cd ./ViPi/src/easySpeech/
 sudo dpkg -i flac_1.3.3-2+deb11u1_armhf.deb
