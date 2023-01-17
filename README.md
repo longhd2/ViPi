@@ -1,7 +1,7 @@
 # ViPi Assistant
-Để dùng bản ổn định hãy tải ở đây: https://github.com/thangnd85/ViPi.git
+Để dùng bản chính thức hãy làm theo hướng dẫn ở đây: https://github.com/thangnd85/ViPi.git
 
-(Khuyên dùng) Link tải IMG đã cài driver ReSpeaker 2: https://vipiteam.page.link/img
+(Khuyên dùng) IMG đã cài driver ReSpeaker 2 ở đây: https://vipiteam.page.link/img
 
 Để trải nghiệm bản test tiến hành cài đặt như sau: 
 ```sh
@@ -18,7 +18,7 @@ cd ./ViPi/src/easySpeech/
 sudo dpkg -i flac_1.3.3-2+deb11u1_armhf.deb
 ```
 
-Lưu ý: Nếu sử dụng IMG có sẵn thì các bạn không cần làm các bước nên dưới
+*Lưu ý: Nếu sử dụng IMG có sẵn thì các bạn không cần làm các bước nên dưới
 # A: CẤU HÌNH & CÀI ĐẶT:
 ## Tải về
 ```sh
