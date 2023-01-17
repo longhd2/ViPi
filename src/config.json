@@ -231,7 +231,7 @@
         ]
     },
     "TextToSpeech": {
-        "Choice": "ZTTS",
+        "Choice": "GTTS",
         "Speed": 0.9,
         "Quality": 1,
         "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
