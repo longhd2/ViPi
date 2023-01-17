@@ -11,7 +11,7 @@ sudo reboot
 ```
 
 **UPDATE NGÀY 17/01/2023
-- Để sử dụng khi không xác thực được tài khoản với google, hạn chế không sử dụng được hotword "OK Google" và STT chính hãng của google, Không điều khiển được thiết bị trên HomeApp của google, tốc độ chậm hơn 1 chút
+- Để sử dụng khi không xác thực được tài khoản với google, hạn chế không sử dụng được hotword "OK Google" và STT google và Không điều khiển được thiết bị trên HomeApp của Google, tốc độ chậm hơn 1 chút
 
 ```sh
 cd ./ViPi/src/easySpeech/
