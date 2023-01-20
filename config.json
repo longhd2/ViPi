@@ -1,0 +1,297 @@
+{
+    "Boss": "Minh Anh",
+    "Use_Google_Assistant": "OK",
+    "Pushbullet": {
+        "Control": "Disabled",
+        "Names": [
+            "bố",
+            "mẹ"
+        ],
+        "Id": [
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE",
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
+        ],
+        "Names_Id": [
+            "bố long",
+            "mẹ hằng"
+        ]
+    },
+    "Telegram": {
+        "Control": "Enabled",
+        "Names": [
+            "bố",
+            "mẹ"
+        ],
+        "Token": [
+            "5741428648:AAFJI8piXVpt8vPED9Wr3LzxO4b7xhpkr1A",
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
+        ],
+        "Chat_Id": [
+            "-674784289",
+            "o.OiU8vS1dWYWUY1cx9QjPEMYIrGiBW1eE"
+        ],
+        "Names_Id": [
+            "bố long",
+            "mẹ hằng"
+        ]
+    },
+    "Chromecast": {
+        "Chromecast_Control": "Enabled",
+        "Device_Names": [
+            "trên loa",
+            "trên tivi"
+        ],
+        "IP_Address": [
+            "192.168.1.101",
+            "192.168.1.94"
+        ]
+    },
+    "ESP": {
+        "ESP_Control": "Disabled",
+        "IP": "xxxxxxxxxxxx",
+        "deviceid": [
+            "/Device1",
+            "/Device2",
+            "/Device3"
+        ],
+        "devicename": [
+            "Device 1",
+            "Device 2",
+            "Device 3"
+        ]
+    },
+    "Google_Assistant": {
+        "Google_cloud_api_key": "AIzaSyBlN3_7HDNM-ByZaDUUoGi5tItiGZVdo1c",
+        "device_model_id": "new-vipi-dev-new-speaker",
+        "project_id": "new-vipi-dev",
+        "Interprer": "Enabled"
+    },
+    "Gpios": {
+        "AIY_indicator": [
+            0
+        ],
+        "assistant_indicators": [
+            0,
+            0
+        ],
+        "control": "Enabled",
+        "gpio_logic": 0,
+        "gpio_center": 22,
+        "gpio_down": 0,
+        "gpio_left": 13,
+        "gpio_right": 5,
+        "gpio_up": 0,
+        "ir": 12,
+        "picontrol": [
+            0
+        ],
+        "pushbutton_trigger": 0,
+        "servo": 0,
+        "stopbutton_music_AIY_pushbutton": 0
+    },
+    "Home_Assistant": {
+        "control": "Enabled",
+        "external_url": "http://vipi.duckdns.org:8123",
+        "internal_url": "http://192.168.1.150:8123",
+        "ratio": 75,
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1N2JjMTJjZDJkMWM0ZjBlYTY5OWNjNmM3MWMzNzc1NyIsImlhdCI6MTY1OTU5NDc4NywiZXhwIjoxOTc0OTU0Nzg3fQ.qTC4WCHm8kVnFsZqOFRv6-Lo37wuZjvLne239H4iltg"
+    },
+    "IR": {
+        "Codes": [
+            2155813095,
+            6690454,
+            2155815135,
+            6709986,
+            2155849815,
+            2155850325,
+            2155864605,
+            6692125,
+            6704846,
+            6688527,
+            6706131
+        ],
+        "Commands": [
+            "mấy giờ",
+            "assistant",
+            "thời tiết hôm nay",
+            "tăng âm lượng",
+            "kế tiếp",
+            "stop",
+            "phát lại",
+            "giảm âm lượng",
+            "music",
+            "radio",
+            "story"
+        ],
+        "IR_Control": "Enabled",
+        "Music_list": [
+            "nhạc thiếu nhi",
+            "cháu thương chú bộ đội",
+            "liên khúc con heo đất",
+            "thiếu nhi vai chú mang súng",
+            "thiếu nhi quả gì",
+            "thiếu nhi bé xuân mai",
+            "thiếu nhi cả nhà thương nhau",
+            "sóng gió",
+            "cô độc vương",
+            "dân ca thiếu nhi"
+        ],
+        "Story_list": [
+            "cổ tích tích chu",
+            "cổ tích thánh gióng",
+            "cô bé quàng khăn đỏ",
+            "cổ tích việt nam",
+            "cổ tích tấm cám",
+            "sự tích hoa mào gà",
+            "sự tích quả dưa hấu",
+            "truyện cây khế"
+        ]
+    },
+    "Language": {
+        "Choice": "vi-VN",
+        "Language options": [
+            "en-US",
+            "vi-VN"
+        ]
+    },
+    "MQTT": {
+        "IP": "Enter your MQTT IP ADDRESS here",
+        "MQTT_Control": "Disabled",
+        "PSWRD": "Enter your MQTT PASSWORD here",
+        "TOPIC": "ENTER your MQTT TOPIC here",
+        "UNAME": "Enter your MQTT USERNAME here"
+    },
+    "Radio_stations": {
+        "Radio_Control": "Enabled",
+        "stationlinks": [
+            "http://media.kythuatvov.vn:1936/live/VOV1.sdp/playlist.m3u8",
+            "http://stream2.mobiradio.vn/vovradio/vov2.stream/chunklist.m3u8",
+            "http://stream2.mobiradio.vn/vovradio/vov3.stream/chunklist.m3u8",
+            "http://stream2.mobiradio.vn/vovradio/vovgthn.stream/chunklist.m3u8",
+            "http://stream2.mobiradio.vn/vovradio/vovgthcm.stream/chunklist.m3u8",
+            "https://stream.mydio.vn/1agAu8B0g7jhQxLxnHaSYw/1665515324/mydio/vov_fm89.stream/chunklist.m3u8"
+        ],
+        "stationnames": [
+            "VOV1",
+            "VOV2",
+            "VOV3",
+            "VOV HÀ NỘI",
+            "VOV HỒ CHÍ MINH",
+            "VOV FM98"
+        ],
+        "stationradio": [
+            "VOV1",
+            "VOV2",
+            "VOV3",
+            "VOV GIAO THÔNG HÀ NỘI",
+            "VOV GIAO THÔNG HỒ CHÍ MINH",
+            "VOV FM98"
+        ]
+    },
+    "Raspberrypi_GPIO_Control": {
+        "GPIO_Control": "Disabled",
+        "lightnames": [
+            "kitchen lights",
+            "bathroom lights",
+            "bedroom lights"
+        ]
+    },
+    "Register_Device": "false",
+    "Script": {
+        "Script_Control": "Disabled",
+        "scriptcommand": [
+            "echo test >> /home/pi/test.txt"
+        ],
+        "scriptname": [
+            "Script test"
+        ]
+    },
+    "SpeechToText": {
+        "Choice": "ZALO"
+    },
+    "Start_config": {
+        "Control_online": "Enabled",
+        "Lựa chọn file khởi động, new_start or new_main": "new_start",
+        "Server1": "http://api.hass.bid",
+        "Server2": "http://vipi.duckdns.org:5000",
+        "Startup_file": "new_main",
+        "Startup_voice": "Enabled",
+        "Read_IP": "Enabled"
+    },
+    "Tasmota_devicelist": {
+        "Tasmota_Control": "Disabled",
+        "friendly-names": [
+            "Desk Light",
+            "Table Light"
+        ],
+        "ipaddresses": [
+            "192.168.1.36",
+            "192.168.1.35"
+        ],
+        "portID": [
+            "1",
+            "1"
+        ]
+    },
+    "TextToSpeech": {
+        "Choice": "ZTTS",
+        "Speed": 0.9,
+        "Quality": 1,
+        "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
+        "Voice_Gender": "Female",
+        "Voice_Region": "South",
+        "Zalo_API": [
+            "E8mpp9RGC2rBAV6I58AXD3LFQtDXE9TS",
+            "E8mpp9RGC2rBAV6I58AXD3LFQtDXE9TS"
+        ]
+    },
+    "Wakewords": {
+        "Custom_Wakeword": "Enabled",
+        "Ok_Google": "Enabled",
+        "Picovoice_wakeword_models": [
+            "/home/pi/ViPi/resources/picovoice_models/hey siri_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models/ok google_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models/alexa_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models/hey google_raspberry-pi.ppn"
+        ],
+        "Picovoice_wakeword_models_V2": [
+            "/home/pi/ViPi/resources/picovoice_models_V2/hey siri_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_V2/ok google_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_V2/alexa_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_V2/hey google_raspberry-pi.ppn"
+        ],
+        "Wakeword_Engine": "Picovoice",
+        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
+        "sensitivities": 0.3
+    },
+    "Weather": {
+        "control": "Disabled",
+        "darksky_api": "c457d056f60c2aa93fd47339aad294da",
+        "ipfy_api": "128979ae3de728602f249354a85ac508",
+        "lat_long": [
+            11.555358,
+            106.172483
+        ],
+        "location": "Tam Kỳ, Quảng Nam"
+    },
+    "YouTube": {
+        "YouTube_Control": "Enabled",
+        "server": "http://150.230.60.61:5000"
+    },
+    "app_news_radio": "Enabled",
+    "continue_conversation": "True",
+    "led_setup": {
+        "pixels": 12,
+        "type": "R2M"
+    },
+    "led_ctr": {
+        "type": "Enabled"
+    },
+    "vol_setup": {
+        "amixer_controls": "Master",
+        "type": "R2M",
+        "volume_max": 100,
+        "volume_min": 10,
+        "volume_start": 75
+    }
+}
