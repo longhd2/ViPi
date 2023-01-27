@@ -36,20 +36,24 @@
 		<form method="post">
 		<h2 class="title-box">Cấu hình chung <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-					Device model ID<input name="device_model_id" placeholder="{{device_model_id}}">
-					Project ID<input name="project_id" placeholder="{{project_id}}">
+<!-- 					Device model ID<input name="device_model_id" placeholder="{{device_model_id}}">
+					Project ID<input name="project_id" placeholder="{{project_id}}"> -->
 					File khởi động (new_main or new_start) <input name="startup_file" placeholder="{{startup_file}}">
-					Âm thanh khởi động <input name="startup_sound" placeholder="{{startup_sound}}">
+					Tên của bạn  <input name="vipiname" placeholder="{{boss}}">
+					Vị trí của bạn <input name="location" placeholder="{{location}}" >
+					Bật âm thanh khởi động (Enabled, Disabled)<input name="startup_sound" placeholder="{{startup_sound}}">
+					Âm lượng khởi động (0-100)<input name="volume" placeholder="{{volume}}">
 					Đọc IP (Enabled, Disabled)<input name="get_ip" placeholder="{{get_ip}}">
 			</div>
 		<h2 class="title-box">Cấu hình giọng nói <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
+					STT: Nhận dạng âm thanh (ZALO, GOOGLE)<input name="stt" placeholder="{{stt}}">
+					TTS: Giọng đọc  (ZTTS, GTTS)<input name="tts" placeholder="{{tts}}">
 					Độ nhạy Picovoice(Picovoice only 0.3 - 1.0)<input name="sensitivities" placeholder="{{sensitivities}}">
-					Nhận dạng âm thanh (zalo, google, google-api)<input name="stt" placeholder="{{stt}}">			
-					Giới tính (Male/Female)<input name="gender" placeholder="{{gender}}">
-					Vùng(Zalo only - South or North)<input name="region" placeholder="{{region}}">
-					Tốc độ (Zalo only 0-1)<input name="speed" placeholder="{{speed}}">
-					Chất lượng (Zalo only Cao: 1/Thấp: 0)<input name="quality" placeholder="{{quality}}">
+					Giới tính giọng đọc (Male/Female)<input name="gender" placeholder="{{gender}}">
+					Vùng giọng đọc (Zalo only - South or North)<input name="region" placeholder="{{region}}">
+					Tốc độ giọng đọc (Zalo only 0-1)<input name="speed" placeholder="{{speed}}">
+					Chất lượng giọng đọc (Zalo only Cao: 1/Thấp: 0)<input name="quality" placeholder="{{quality}}">
 <!-- 					Zalo API<input name="zaloapi" placeholder="{{zaloapi}}"> -->
 			</div>
 		<h2 class="title-box">Cấu hình HASS <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
@@ -60,14 +64,11 @@
 					Long-lived token<input name="tokenhass" placeholder="{{tokenhass}}">
 			</div>
 
-		<h2 class="title-box">Cấu hình LOA <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
+		<h2 class="title-box">Cấu đèn LED <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-				Tên chủ nhân <input name="vipiname" placeholder="{{boss}}">
-				Vị trí của bạn <input name="location" placeholder="{{location}}" >
-				Điều khiển đèn led (Enabled, Disabled)<input name="mic" placeholder="{{mic}}">
+				Bật điều khiển đèn led (Enabled, Disabled)<input name="mic" placeholder="{{mic}}">
 				Loại led (R2M, R4M, WS2, RUM)<input name="led" placeholder="{{led}}">
 				Số đèn led <input name="pixels" placeholder="{{pixels}}">
-				Âm lượng (khởi động)<input name="volume" placeholder="{{volume}}">
 			</div>
 <!-- 		<h2 class="title-box">Cấu hình Chromecast <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
@@ -77,13 +78,13 @@
 			</div> -->
 		<h2 class="title-box">Cấu hình GPIOs<span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-					Cho phép sử dụng GPIOs(Enabled, Disabled)<input name="control" placeholder="{{control}}">
+					Bật điều khiển GPIOs (Enabled, Disabled)<input name="control" placeholder="{{control}}">
 					Chọn mức logic GPIOs ( 0 or 1) <input name="gpio_logic" placeholder="{{gpio_logic}}">
-					Up <input name="gpio_up" placeholder="{{gpio_up}}">
-					Down<input name="gpio_down" placeholder="{{gpio_down}}">
-					Left<input name="gpio_left" placeholder="{{gpio_left}}">
-					Right<input name="gpio_right" placeholder="{{gpio_right}}">
-					Center<input name="gpio_center" placeholder="{{gpio_center}}">
+					Phím Up (nếu không sử dụng điền số 0 )<input name="gpio_up" placeholder="{{gpio_up}}">
+					Phím Down (nếu không sử dụng điền số 0 )<input name="gpio_down" placeholder="{{gpio_down}}">
+					Phím Left (nếu không sử dụng điền số 0 )<input name="gpio_left" placeholder="{{gpio_left}}">
+					Phím Right(nếu không sử dụng điền số 0 ) <input name="gpio_right" placeholder="{{gpio_right}}">
+					Phím Center(nếu không sử dụng điền số 0 ) <input name="gpio_center" placeholder="{{gpio_center}}">
 				<button class="btn-submit reading-btn" type="submit">Lưu cấu hình</button>
 			</div>	
 
