@@ -1,0 +1,122 @@
+2023-01-21 01:10:45,095 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:45,096 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:45,099 : DEBUG : Making request: POST https://accounts.google.com/o/oauth2/token
+2023-01-21 01:10:45,106 : DEBUG : Starting new HTTPS connection (1): accounts.google.com:443
+2023-01-21 01:10:45,483 : DEBUG : https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2023-01-21 01:10:46,990 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:46,991 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:46,992 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:46,993 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:46,995 : DEBUG : Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:10:47,008 : DEBUG : Starting new HTTPS connection (1): embeddedassistant.googleapis.com:443
+2023-01-21 01:10:47,012 : WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-01-21 01:10:47,013 : INFO :  * Running on http://192.168.1.64:5002/ (Press CTRL+C to quit)
+2023-01-21 01:10:47,263 : DEBUG : https://embeddedassistant.googleapis.com:443 "GET /v1alpha2/projects/new-vipi-dev/devices/28B7C9CEA2A0E7758D91B3C19F97DFEC HTTP/1.1" 400 None
+2023-01-21 01:11:02,464 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:02,468 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:02,492 : DEBUG : Starting new HTTPS connection (1): zalo.ai:443
+2023-01-21 01:11:02,777 : DEBUG : https://zalo.ai:443 "GET /experiments/vietnamese-questions-answering HTTP/1.1" 200 None
+2023-01-21 01:11:02,799 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:02,802 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:02,815 : DEBUG : Starting new HTTPS connection (1): zalo.ai:443
+2023-01-21 01:11:03,446 : DEBUG : https://zalo.ai:443 "POST /api/demo/v1/kiki/qa HTTP/1.1" 200 None
+2023-01-21 01:11:04,467 : DEBUG : text: Thời tiết ở Tam Kỳ hôm nay được dự báo là mưa nhẹ, nhiệt độ thấp nhất là 19 °C, nhiệt độ cao nhất là 20 °C.
+2023-01-21 01:11:04,519 : DEBUG : tld: com.vn
+2023-01-21 01:11:04,520 : DEBUG : lang: vi
+2023-01-21 01:11:04,521 : DEBUG : slow: False
+2023-01-21 01:11:04,521 : DEBUG : lang_check: True
+2023-01-21 01:11:04,522 : DEBUG : pre_processor_funcs: [<function tone_marks at 0x7647c070>, <function end_of_line at 0x7647c1d8>, <function abbreviations at 0x7647c0b8>, <function word_sub at 0x7647c610>]
+2023-01-21 01:11:04,522 : DEBUG : tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|：|،|、|¡|—|;|\\\n|‥|，|…|。|\\)|\\(|\\[|¿', re.IGNORECASE) from: [<function tone_marks at 0x7647c658>, <function period_comma at 0x7647c730>, <function colon at 0x7647c778>, <function other_punctuation at 0x7647c7c0>]>
+2023-01-21 01:11:04,524 : DEBUG : langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2023-01-21 01:11:04,525 : DEBUG : pre-processing: <function tone_marks at 0x7647c070>
+2023-01-21 01:11:04,531 : DEBUG : pre-processing: <function end_of_line at 0x7647c1d8>
+2023-01-21 01:11:04,532 : DEBUG : pre-processing: <function abbreviations at 0x7647c0b8>
+2023-01-21 01:11:04,540 : DEBUG : pre-processing: <function word_sub at 0x7647c610>
+2023-01-21 01:11:04,542 : DEBUG : tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|：|،|、|¡|—|;|\\\n|‥|，|…|。|\\)|\\(|\\[|¿', re.IGNORECASE) from: [<function tone_marks at 0x7647c658>, <function period_comma at 0x7647c730>, <function colon at 0x7647c778>, <function other_punctuation at 0x7647c7c0>]>
+2023-01-21 01:11:04,544 : DEBUG : text_parts: ['Thời tiết ở Tam Kỳ hôm nay được dự báo là mưa nhẹ', 'nhiệt độ thấp nhất là 19 °C', 'nhiệt độ cao nhất là 20 °C.']
+2023-01-21 01:11:04,546 : DEBUG : text_parts: 3
+2023-01-21 01:11:04,548 : DEBUG : data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Th%5C%5Cu1eddi%20ti%5C%5Cu1ebft%20%5C%5Cu1edf%20Tam%20K%5C%5Cu1ef3%20h%5C%5Cu00f4m%20nay%20%5C%5Cu0111%5C%5Cu01b0%5C%5Cu1ee3c%20d%5C%5Cu1ef1%20b%5C%5Cu00e1o%20l%5C%5Cu00e0%20m%5C%5Cu01b0a%20nh%5C%5Cu1eb9%5C%22%2C%5C%22vi%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2023-01-21 01:11:04,552 : DEBUG : data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22nhi%5C%5Cu1ec7t%20%5C%5Cu0111%5C%5Cu1ed9%20th%5C%5Cu1ea5p%20nh%5C%5Cu1ea5t%20l%5C%5Cu00e0%2019%20%5C%5Cu00b0C%5C%22%2C%5C%22vi%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2023-01-21 01:11:04,555 : DEBUG : data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22nhi%5C%5Cu1ec7t%20%5C%5Cu0111%5C%5Cu1ed9%20cao%20nh%5C%5Cu1ea5t%20l%5C%5Cu00e0%2020%20%5C%5Cu00b0C.%5C%22%2C%5C%22vi%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2023-01-21 01:11:04,558 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:04,559 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:04,566 : DEBUG : Starting new HTTPS connection (1): translate.google.com.vn:443
+2023-01-21 01:11:05,112 : DEBUG : https://translate.google.com.vn:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2023-01-21 01:11:05,428 : DEBUG : headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '333'}
+2023-01-21 01:11:05,429 : DEBUG : url-0: https://translate.google.com.vn/_/TranslateWebserverUi/data/batchexecute
+2023-01-21 01:11:05,429 : DEBUG : status-0: 200
+2023-01-21 01:11:05,436 : DEBUG : part-0 written to <_io.BufferedWriter name='/home/pi/ViPi/tmp/ThoitietoTamKyhomnayuocdubaolamuanhenhietothapnhatla19Cnhietocaonhatla20C.mp3'>
+2023-01-21 01:11:05,437 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:05,438 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:05,446 : DEBUG : Starting new HTTPS connection (1): translate.google.com.vn:443
+2023-01-21 01:11:06,046 : DEBUG : https://translate.google.com.vn:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2023-01-21 01:11:06,116 : DEBUG : headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '239'}
+2023-01-21 01:11:06,117 : DEBUG : url-1: https://translate.google.com.vn/_/TranslateWebserverUi/data/batchexecute
+2023-01-21 01:11:06,117 : DEBUG : status-1: 200
+2023-01-21 01:11:06,120 : DEBUG : part-1 written to <_io.BufferedWriter name='/home/pi/ViPi/tmp/ThoitietoTamKyhomnayuocdubaolamuanhenhietothapnhatla19Cnhietocaonhatla20C.mp3'>
+2023-01-21 01:11:06,120 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:06,121 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:06,125 : DEBUG : Starting new HTTPS connection (1): translate.google.com.vn:443
+2023-01-21 01:11:06,760 : DEBUG : https://translate.google.com.vn:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2023-01-21 01:11:07,078 : DEBUG : headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '229'}
+2023-01-21 01:11:07,079 : DEBUG : url-2: https://translate.google.com.vn/_/TranslateWebserverUi/data/batchexecute
+2023-01-21 01:11:07,079 : DEBUG : status-2: 200
+2023-01-21 01:11:07,081 : DEBUG : part-2 written to <_io.BufferedWriter name='/home/pi/ViPi/tmp/ThoitietoTamKyhomnayuocdubaolamuanhenhietothapnhatla19Cnhietocaonhatla20C.mp3'>
+2023-01-21 01:11:07,082 : DEBUG : Saved to /home/pi/ViPi/tmp/ThoitietoTamKyhomnayuocdubaolamuanhenhietothapnhatla19Cnhietocaonhatla20C.mp3
+2023-01-21 01:11:25,916 : DEBUG : text: Hôm nay âm lịch là 30 tháng Chạp năm Nhâm Dần 2022 còn 1 ngày nữa thì đến mùng 1.
+2023-01-21 01:11:25,918 : DEBUG : tld: com.vn
+2023-01-21 01:11:25,919 : DEBUG : lang: vi
+2023-01-21 01:11:25,920 : DEBUG : slow: False
+2023-01-21 01:11:25,920 : DEBUG : lang_check: True
+2023-01-21 01:11:25,921 : DEBUG : pre_processor_funcs: [<function tone_marks at 0x7647c070>, <function end_of_line at 0x7647c1d8>, <function abbreviations at 0x7647c0b8>, <function word_sub at 0x7647c610>]
+2023-01-21 01:11:25,921 : DEBUG : tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|：|،|、|¡|—|;|\\\n|‥|，|…|。|\\)|\\(|\\[|¿', re.IGNORECASE) from: [<function tone_marks at 0x7647c658>, <function period_comma at 0x7647c730>, <function colon at 0x7647c778>, <function other_punctuation at 0x7647c7c0>]>
+2023-01-21 01:11:25,923 : DEBUG : langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2023-01-21 01:11:25,930 : DEBUG : pre-processing: <function tone_marks at 0x7647c070>
+2023-01-21 01:11:25,932 : DEBUG : pre-processing: <function end_of_line at 0x7647c1d8>
+2023-01-21 01:11:25,933 : DEBUG : pre-processing: <function abbreviations at 0x7647c0b8>
+2023-01-21 01:11:25,935 : DEBUG : pre-processing: <function word_sub at 0x7647c610>
+2023-01-21 01:11:25,935 : DEBUG : text_parts: ['Hôm nay âm lịch là 30 tháng Chạp năm Nhâm Dần 2022 còn 1 ngày nữa thì đến mùng 1.']
+2023-01-21 01:11:25,936 : DEBUG : text_parts: 1
+2023-01-21 01:11:25,937 : DEBUG : data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22H%5C%5Cu00f4m%20nay%20%5C%5Cu00e2m%20l%5C%5Cu1ecbch%20l%5C%5Cu00e0%2030%20th%5C%5Cu00e1ng%20Ch%5C%5Cu1ea1p%20n%5C%5Cu0103m%20Nh%5C%5Cu00e2m%20D%5C%5Cu1ea7n%202022%20c%5C%5Cu00f2n%201%20ng%5C%5Cu00e0y%20n%5C%5Cu1eefa%20th%5C%5Cu00ec%20%5C%5Cu0111%5C%5Cu1ebfn%20m%5C%5Cu00f9ng%201.%5C%22%2C%5C%22vi%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2023-01-21 01:11:25,940 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:25,941 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:25,946 : DEBUG : Starting new HTTPS connection (1): translate.google.com.vn:443
+2023-01-21 01:11:26,277 : DEBUG : https://translate.google.com.vn:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2023-01-21 01:11:26,387 : DEBUG : headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '409'}
+2023-01-21 01:11:26,388 : DEBUG : url-0: https://translate.google.com.vn/_/TranslateWebserverUi/data/batchexecute
+2023-01-21 01:11:26,389 : DEBUG : status-0: 200
+2023-01-21 01:11:26,395 : DEBUG : part-0 written to <_io.BufferedWriter name='/home/pi/ViPi/tmp/Homnayamlichla30thangChapnamNhamDan2022con1ngaynuathienmung1.mp3'>
+2023-01-21 01:11:26,396 : DEBUG : Saved to /home/pi/ViPi/tmp/Homnayamlichla30thangChapnamNhamDan2022con1ngaynuathienmung1.mp3
+2023-01-21 01:11:42,086 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:42,088 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:42,098 : DEBUG : Starting new HTTPS connection (1): zalo.ai:443
+2023-01-21 01:11:42,326 : DEBUG : https://zalo.ai:443 "GET /experiments/vietnamese-questions-answering HTTP/1.1" 200 None
+2023-01-21 01:11:42,344 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:42,346 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:42,355 : DEBUG : Starting new HTTPS connection (1): zalo.ai:443
+2023-01-21 01:11:42,740 : DEBUG : https://zalo.ai:443 "POST /api/demo/v1/kiki/qa HTTP/1.1" 200 None
+2023-01-21 01:11:42,811 : DEBUG : text: Còn 1 ngày nữa là đến tết.
+2023-01-21 01:11:42,812 : DEBUG : tld: com.vn
+2023-01-21 01:11:42,813 : DEBUG : lang: vi
+2023-01-21 01:11:42,814 : DEBUG : slow: False
+2023-01-21 01:11:42,814 : DEBUG : lang_check: True
+2023-01-21 01:11:42,815 : DEBUG : pre_processor_funcs: [<function tone_marks at 0x7647c070>, <function end_of_line at 0x7647c1d8>, <function abbreviations at 0x7647c0b8>, <function word_sub at 0x7647c610>]
+2023-01-21 01:11:42,815 : DEBUG : tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|：|،|、|¡|—|;|\\\n|‥|，|…|。|\\)|\\(|\\[|¿', re.IGNORECASE) from: [<function tone_marks at 0x7647c658>, <function period_comma at 0x7647c730>, <function colon at 0x7647c778>, <function other_punctuation at 0x7647c7c0>]>
+2023-01-21 01:11:42,816 : DEBUG : langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2023-01-21 01:11:42,817 : DEBUG : pre-processing: <function tone_marks at 0x7647c070>
+2023-01-21 01:11:42,818 : DEBUG : pre-processing: <function end_of_line at 0x7647c1d8>
+2023-01-21 01:11:42,818 : DEBUG : pre-processing: <function abbreviations at 0x7647c0b8>
+2023-01-21 01:11:42,819 : DEBUG : pre-processing: <function word_sub at 0x7647c610>
+2023-01-21 01:11:42,820 : DEBUG : text_parts: ['Còn 1 ngày nữa là đến tết.']
+2023-01-21 01:11:42,820 : DEBUG : text_parts: 1
+2023-01-21 01:11:42,821 : DEBUG : data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22C%5C%5Cu00f2n%201%20ng%5C%5Cu00e0y%20n%5C%5Cu1eefa%20l%5C%5Cu00e0%20%5C%5Cu0111%5C%5Cu1ebfn%20t%5C%5Cu1ebft.%5C%22%2C%5C%22vi%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2023-01-21 01:11:42,823 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:42,825 : DEBUG : Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-01-21 01:11:42,831 : DEBUG : Starting new HTTPS connection (1): translate.google.com.vn:443
+2023-01-21 01:11:43,436 : DEBUG : https://translate.google.com.vn:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2023-01-21 01:11:43,496 : DEBUG : headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '238'}
+2023-01-21 01:11:43,497 : DEBUG : url-0: https://translate.google.com.vn/_/TranslateWebserverUi/data/batchexecute
+2023-01-21 01:11:43,497 : DEBUG : status-0: 200
+2023-01-21 01:11:43,499 : DEBUG : part-0 written to <_io.BufferedWriter name='/home/pi/ViPi/tmp/Con1ngaynualaentet.mp3'>
+2023-01-21 01:11:43,500 : DEBUG : Saved to /home/pi/ViPi/tmp/Con1ngaynualaentet.mp3
