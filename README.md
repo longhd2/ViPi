@@ -7,7 +7,6 @@
 ```sh
 rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
-sudo reboot
 ```
 **UPDATE NGÀY 05/02/2023
 - Nhấn giữ 30 giây GPIO 17 - nối GND (hoặc phím bấm trên 2 mic re) reset Wifi vào IMG
