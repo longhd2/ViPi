@@ -9,6 +9,10 @@ rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 sudo reboot
 ```
+**UPDATE NGÀY 05/02/2023
+- Nhấn giữ 30 giây GPIO 17 - nối GND (hoặc phím bấm trên 2 mic re) reset Wifi vào IMG
+- OFF hotword OK GOOGLE - chỉ sử dụng PICOVOICE ONLY
+- STT: GOOGLE_SDK (ONLY CPU Armv7, ArmV8); GOOGLE_FREE; ZALO_FREE
 
 **UPDATE NGÀY 17/01/2023
 - Để sử dụng khi không xác thực được tài khoản với google, hạn chế không sử dụng được hotword "OK Google" và STT google và Không điều khiển được thiết bị trên HomeApp của Google, tốc độ chậm hơn 1 chút
