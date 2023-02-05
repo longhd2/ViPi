@@ -1,4 +1,3 @@
-
 {
     "Boss": "Minh Anh",
     "Use_Google_Assistant": "OK",
@@ -68,34 +67,22 @@
         "Interprer": "Enabled"
     },
     "Gpios": {
-        "AIY_indicator": [
-            0
-        ],
-        "assistant_indicators": [
-            0,
-            0
-        ],
         "control": "Enabled",
         "gpio_logic": 0,
-        "gpio_center": 22,
-        "gpio_down": 0,
-        "gpio_left": 13,
+        "gpio_center": 0,
+        "gpio_down": 13,
+        "gpio_left": 26,
         "gpio_right": 5,
-        "gpio_up": 0,
-        "ir": 12,
-        "picontrol": [
-            0
-        ],
-        "pushbutton_trigger": 0,
-        "servo": 0,
-        "stopbutton_music_AIY_pushbutton": 0
+        "gpio_up": 22,
+        "ir": 12
     },
     "Home_Assistant": {
         "control": "Enabled",
         "external_url": "http://vipi.duckdns.org:8123",
         "internal_url": "http://192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI1N2JjMTJjZDJkMWM0ZjBlYTY5OWNjNmM3MWMzNzc1NyIsImlhdCI6MTY1OTU5NDc4NywiZXhwIjoxOTc0OTU0Nzg3fQ.qTC4WCHm8kVnFsZqOFRv6-Lo37wuZjvLne239H4iltg"
+        "token": "eyJhbGI6IkpXVCJ9.eyJpc3MiOiJhOTZhOGQ2OGIzYjU0MjliYTk1ODI4NDJkMDZjNmYwNiIsImlhdCI6MTY3NTMwOTE5MiwiZXhwIjoxOTkwNjY5MTkyfQ.OmpTNPUmKbAV9jN62siq1fa1GnOcHbuvQYcr9wUfgPY",
+        "Home_Assistant_control": "Enabled"
     },
     "IR": {
         "Codes": [
@@ -124,7 +111,7 @@
             "radio",
             "story"
         ],
-        "IR_Control": "Enabled",
+        "IR_Control": "Disabled",
         "Music_list": [
             "nhạc thiếu nhi",
             "cháu thương chú bộ đội",
@@ -208,7 +195,7 @@
         ]
     },
     "SpeechToText": {
-        "Choice": "ZALO"
+        "Choice": "GOOGLE_FREE"
     },
     "Start_config": {
         "Control_online": "Enabled",
@@ -216,8 +203,8 @@
         "Server1": "http://api.hass.bid",
         "Server2": "http://vipi.duckdns.org:5000",
         "Startup_file": "new_main",
-        "Startup_voice": "Enabled",
-        "Read_IP": "Enabled"
+        "Startup_voice": "Disabled",
+        "Read_IP": "Disabled"
     },
     "Tasmota_devicelist": {
         "Tasmota_Control": "Disabled",
@@ -235,7 +222,7 @@
         ]
     },
     "TextToSpeech": {
-        "Choice": "ZTTS",
+        "Choice": "GTTS",
         "Speed": 0.9,
         "Quality": 1,
         "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
@@ -293,6 +280,6 @@
         "type": "R2M",
         "volume_max": 100,
         "volume_min": 10,
-        "volume_start": 75
+        "volume_start": 80
     }
 }
