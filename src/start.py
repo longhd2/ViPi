@@ -17,7 +17,7 @@ from actions import USER_PATH,configuration
 if configuration['Start_config']['Startup_file']=='new_main':
     import new_main
     print ('\nimport new_main')
-    new_main.Myassistant().main()
+    new_main.google_sdk().main()
 if configuration['Start_config']['Startup_file']=='new_start':
     import new_start
     print ('\nimport new_start')
