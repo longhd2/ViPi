@@ -38,8 +38,8 @@
 			<div class="text-input-config">
 <!-- 					Device model ID<input name="device_model_id" placeholder="{{device_model_id}}">
 					Project ID<input name="project_id" placeholder="{{project_id}}"> -->
-					File khởi động (new_main or new_start) <input name="startup_file" placeholder="{{startup_file}}">
-					Tên của bạn  <input name="vipiname" placeholder="{{boss}}">
+<!-- 					File khởi động (new_main or new_start) <input name="startup_file" placeholder="{{startup_file}}">
+ -->					Tên của bạn  <input name="vipiname" placeholder="{{boss}}">
 					Vị trí của bạn <input name="location" placeholder="{{location}}" >
 					Bật âm thanh khởi động (Enabled, Disabled)<input name="startup_sound" placeholder="{{startup_sound}}">
 					Âm lượng khởi động (0-100)<input name="volume" placeholder="{{volume}}">
@@ -47,7 +47,7 @@
 			</div>
 		<h2 class="title-box">Cấu hình giọng nói <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-					STT: Nhận dạng âm thanh (ZALO, GOOGLE)<input name="stt" placeholder="{{stt}}">
+					STT: Nhận dạng âm thanh (GOOGLE_SDK only CPU ArmV7, ArmV8, GOOGLE_FREE, ZALO)<input name="stt" placeholder="{{stt}}">
 					TTS: Giọng đọc  (ZTTS, GTTS)<input name="tts" placeholder="{{tts}}">
 					Độ nhạy Picovoice(Picovoice only 0.3 - 1.0)<input name="sensitivities" placeholder="{{sensitivities}}">
 					Giới tính giọng đọc (Male/Female)<input name="gender" placeholder="{{gender}}">
@@ -58,6 +58,7 @@
 			</div>
 		<h2 class="title-box">Cấu hình HASS <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
+					Bật điều khiển Home_Assistant(Enabled, Disabled) <input name="Home_Assistant_control" placeholder="{{Home_Assistant_control}}">
 					Liên kết ngoài <input name="external_url" placeholder="{{external_url}}">
 					Liên kết nội bộ<input name="internal_url" placeholder="{{internal_url}}">
 					Độ chính xác<input name="ratiohass" placeholder="{{ratiohass}}">
@@ -79,13 +80,13 @@
 		<h2 class="title-box">Cấu hình GPIOs<span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
 					Bật điều khiển GPIOs (Enabled, Disabled)<input name="control" placeholder="{{control}}">
-					Chọn mức logic GPIOs ( 0 or 1) <input name="gpio_logic" placeholder="{{gpio_logic}}">
-					Phím Up (nếu không sử dụng điền số 0 )<input name="gpio_up" placeholder="{{gpio_up}}">
-					Phím Down (nếu không sử dụng điền số 0 )<input name="gpio_down" placeholder="{{gpio_down}}">
-					Phím Left (nếu không sử dụng điền số 0 )<input name="gpio_left" placeholder="{{gpio_left}}">
-					Phím Right(nếu không sử dụng điền số 0 ) <input name="gpio_right" placeholder="{{gpio_right}}">
-					Phím Center(nếu không sử dụng điền số 0 ) <input name="gpio_center" placeholder="{{gpio_center}}">
-				<button class="btn-submit reading-btn" type="submit">Lưu cấu hình</button>
+					Cấu hình mức logic GPIOs ( 0 or 1) <input name="gpio_logic" placeholder="{{gpio_logic}}">
+					Phím Up    - Stop        (nếu không sử dụng điền số 0 )<input name="gpio_up" placeholder="{{gpio_up}}">
+					Phím Down  - Assistant   (nếu không sử dụng điền số 0 )<input name="gpio_down" placeholder="{{gpio_down}}">
+					Phím Left  - Giảm Volume (nếu không sử dụng điền số 0 )<input name="gpio_left" placeholder="{{gpio_left}}">
+					Phím Right - Tăng Volume (nếu không sử dụng điền số 0 ) <input name="gpio_right" placeholder="{{gpio_right}}">
+<!-- 					Phím Center- Reset WIFI  (nếu không sử dụng điền số 0 ) <input name="gpio_center" placeholder="{{gpio_center}}">
+ -->				<button class="btn-submit reading-btn" type="submit">Lưu cấu hình</button>
 			</div>	
 
 		</form>
