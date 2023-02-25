@@ -16,13 +16,15 @@ rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 pip install ujson
 pip install openai
+pip install youtube-search-python
 cd ./ViPi/src/easySpeech/
 sudo dpkg -i flac_1.3.3-2+deb11u1_armhf.deb
 ```
-Vào ip:/9001 user/pass: user/123 vào khởi động lại
-Vào ip:/5002/setting chọn Mic, led chính xác
+Vào ip:9001 user/pass: user/123 vào khởi động lại
 
-```
+Vào ip:5002/setting chọn Mic, led chính xác
+
+
 - Những thay đổi:
 	+ Bật lại hotword OK GG
 	+ Fix lỗi music
