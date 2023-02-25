@@ -9,6 +9,25 @@ rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 ```
 **UPDATE NGÀY 05/02/2023
++ Hướng dẫn cài đặt cho IMG cài đặt sẵn!
+ - 
+ ```sh
+
+rm -rf ViPi/
+git clone https://github.com/longhd2/ViPi.git
+pip install ujson
+pip install openai
+cd ./ViPi/src/easySpeech/
+sudo dpkg -i flac_1.3.3-2+deb11u1_armhf.deb
+```
+- Những thay đổi:
+	+ Bật lại hotword OK GG
+	+ Fix lỗi music
+	+ Tăng tốc xử lý gTTS (zalo chưa xử lý xong)
+	+ Thay đổi điều khiển led
+	+ Và bổ sung thêm lỗi mới
+```
+**UPDATE NGÀY 05/02/2023
 - Nhấn giữ 30 giây GPIO 17 - nối GND (hoặc phím bấm trên 2 mic re) reset Wifi vào IMG
 - OFF hotword OK GOOGLE - chỉ sử dụng PICOVOICE ONLY
 - STT: GOOGLE_SDK (ONLY CPU Armv7, ArmV8); GOOGLE_FREE; ZALO_FREE
