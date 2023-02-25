@@ -1,8 +1,8 @@
 {
     "Boss": "Minh Anh",
-    "Use_Google_Assistant": "OK",
+    "Use_Google_Assistant": "off",
     "Pushbullet": {
-        "Control": "Disabled",
+        "Control": "off",
         "Names": [
             "bố",
             "mẹ"
@@ -17,7 +17,7 @@
         ]
     },
     "Telegram": {
-        "Control": "Enabled",
+        "Control": "on",
         "Names": [
             "bố",
             "mẹ"
@@ -36,7 +36,7 @@
         ]
     },
     "Chromecast": {
-        "Chromecast_Control": "Enabled",
+        "Chromecast_Control": "on",
         "Device_Names": [
             "trên loa",
             "trên tivi"
@@ -47,7 +47,7 @@
         ]
     },
     "ESP": {
-        "ESP_Control": "Disabled",
+        "ESP_Control": "on",
         "IP": "xxxxxxxxxxxx",
         "deviceid": [
             "/Device1",
@@ -64,10 +64,10 @@
         "Google_cloud_api_key": "AIzaSyBlN3_7HDNM-ByZaDUUoGi5tItiGZVdo1c",
         "device_model_id": "new-vipi-dev-new-speaker",
         "project_id": "new-vipi-dev",
-        "Interprer": "Enabled"
+        "Interprer": "on"
     },
     "Gpios": {
-        "control": "Enabled",
+        "control": "off",
         "gpio_logic": 0,
         "gpio_center": 0,
         "gpio_down": 13,
@@ -77,12 +77,12 @@
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "Enabled",
+        "control": "on",
         "external_url": "http://vipi.duckdns.org:8123",
         "internal_url": "http://192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJhbGI6IkpXVCJ9.eyJpc3MiOiJhOTZhOGQ2OGIzYjU0MjliYTk1ODI4NDJkMDZjNmYwNiIsImlhdCI6MTY3NTMwOTE5MiwiZXhwIjoxOTkwNjY5MTkyfQ.OmpTNPUmKbAV9jN62siq1fa1GnOcHbuvQYcr9wUfgPY",
-        "Home_Assistant_control": "Enabled"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0MWQ3MWViOWQ3Mjc0Y2YzYjQ1NjYxNWY5OTkyZWJlOSIsImlhdCI6MTY3NjAxNDkxMywiZXhwIjoxOTkxMzc0OTEzfQ.H4a4GwPKYnlcAhhxxkNueEN0xFov6KNFHfGW1yT0w6A",
+        "Home_Assistant_control": "on"
     },
     "IR": {
         "Codes": [
@@ -111,7 +111,7 @@
             "radio",
             "story"
         ],
-        "IR_Control": "Disabled",
+        "IR_Control": "off",
         "Music_list": [
             "nhạc thiếu nhi",
             "cháu thương chú bộ đội",
@@ -144,13 +144,13 @@
     },
     "MQTT": {
         "IP": "Enter your MQTT IP ADDRESS here",
-        "MQTT_Control": "Disabled",
+        "MQTT_Control": "off",
         "PSWRD": "Enter your MQTT PASSWORD here",
         "TOPIC": "ENTER your MQTT TOPIC here",
         "UNAME": "Enter your MQTT USERNAME here"
     },
     "Radio_stations": {
-        "Radio_Control": "Enabled",
+        "Radio_Control": "on",
         "stationlinks": [
             "http://media.kythuatvov.vn:1936/live/VOV1.sdp/playlist.m3u8",
             "http://stream2.mobiradio.vn/vovradio/vov2.stream/chunklist.m3u8",
@@ -177,7 +177,7 @@
         ]
     },
     "Raspberrypi_GPIO_Control": {
-        "GPIO_Control": "Disabled",
+        "GPIO_Control": "off",
         "lightnames": [
             "kitchen lights",
             "bathroom lights",
@@ -186,7 +186,7 @@
     },
     "Register_Device": "false",
     "Script": {
-        "Script_Control": "Disabled",
+        "Script_Control": "off",
         "scriptcommand": [
             "echo test >> /home/pi/test.txt"
         ],
@@ -195,19 +195,16 @@
         ]
     },
     "SpeechToText": {
-        "Choice": "GOOGLE_FREE"
+        "Choice": "ok_gooogle"
     },
     "Start_config": {
-        "Control_online": "Enabled",
         "Lựa chọn file khởi động, new_start or new_main": "new_start",
-        "Server1": "http://api.hass.bid",
-        "Server2": "http://vipi.duckdns.org:5000",
         "Startup_file": "new_main",
-        "Startup_voice": "Disabled",
-        "Read_IP": "Disabled"
+        "Startup_voice": "on",
+        "Read_IP": "on"
     },
     "Tasmota_devicelist": {
-        "Tasmota_Control": "Disabled",
+        "Tasmota_Control": "off",
         "friendly-names": [
             "Desk Light",
             "Table Light"
@@ -234,8 +231,8 @@
         ]
     },
     "Wakewords": {
-        "Custom_Wakeword": "Enabled",
-        "Ok_Google": "Enabled",
+        "Custom_Wakeword": "off",
+        "Ok_Google": "on",
         "Picovoice_wakeword_models": [
             "/home/pi/ViPi/resources/picovoice_models/hey siri_raspberry-pi.ppn",
             "/home/pi/ViPi/resources/picovoice_models/ok google_raspberry-pi.ppn",
@@ -253,7 +250,7 @@
         "sensitivities": 0.3
     },
     "Weather": {
-        "control": "Disabled",
+        "control": "off",
         "darksky_api": "c457d056f60c2aa93fd47339aad294da",
         "ipfy_api": "128979ae3de728602f249354a85ac508",
         "lat_long": [
@@ -263,17 +260,17 @@
         "location": "Tam Kỳ, Quảng Nam"
     },
     "YouTube": {
-        "YouTube_Control": "Enabled",
+        "YouTube_Control": "on",
         "server": "http://150.230.60.61:5000"
     },
-    "app_news_radio": "Enabled",
+    "app_news_radio": "on",
     "continue_conversation": "True",
     "led_setup": {
         "pixels": 12,
         "type": "R2M"
     },
     "led_ctr": {
-        "type": "Enabled"
+        "type": "on"
     },
     "vol_setup": {
         "amixer_controls": "Master",
