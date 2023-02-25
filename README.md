@@ -8,9 +8,8 @@
 rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 ```
-**UPDATE NGÀY 05/02/2023
+**UPDATE NGÀY 25/02/2023
 + Hướng dẫn cài đặt cho IMG cài đặt sẵn!
- - 
  ```sh
 
 rm -rf ViPi/
