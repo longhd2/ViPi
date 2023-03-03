@@ -17,7 +17,7 @@
         ]
     },
     "Telegram": {
-        "Control": "on",
+        "Control": "off",
         "Names": [
             "bố",
             "mẹ"
@@ -36,18 +36,18 @@
         ]
     },
     "Chromecast": {
-        "Chromecast_Control": "on",
+        "Chromecast_Control": "off",
         "Device_Names": [
             "trên loa",
             "trên tivi"
         ],
         "IP_Address": [
-            "192.168.1.101",
-            "192.168.1.94"
+            "192.168.1.5",
+            "192.168.1.209"
         ]
     },
     "ESP": {
-        "ESP_Control": "on",
+        "ESP_Control": "off",
         "IP": "xxxxxxxxxxxx",
         "deviceid": [
             "/Device1",
@@ -77,12 +77,12 @@
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "on",
-        "external_url": "http://vipi.duckdns.org:8123",
+        "control": "off",
+        "external_url": "http://vipi.xxx",
         "internal_url": "http://192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0MWQ3MWViOWQ3Mjc0Y2YzYjQ1NjYxNWY5OTkyZWJlOSIsImlhdCI6MTY3NjAxNDkxMywiZXhwIjoxOTkxMzc0OTEzfQ.H4a4GwPKYnlcAhhxxkNueEN0xFov6KNFHfGW1yT0w6A",
-        "Home_Assistant_control": "on"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.xxxx.Qw36jUbAz6PKu19IgHCuR0fyYvGZhbIXfhbvas6zjQc",
+        "Home_Assistant_control": "off"
     },
     "IR": {
         "Codes": [
@@ -185,23 +185,13 @@
         ]
     },
     "Register_Device": "false",
-    "Script": {
-        "Script_Control": "off",
-        "scriptcommand": [
-            "echo test >> /home/pi/test.txt"
-        ],
-        "scriptname": [
-            "Script test"
-        ]
-    },
     "SpeechToText": {
-        "Choice": "ok_gooogle"
+        "Choice": "google_sdk"
     },
     "Start_config": {
-        "Lựa chọn file khởi động, new_start or new_main": "new_start",
         "Startup_file": "new_main",
-        "Startup_voice": "on",
-        "Read_IP": "on"
+        "Startup_voice": "off",
+        "Read_IP": "off"
     },
     "Tasmota_devicelist": {
         "Tasmota_Control": "off",
@@ -220,7 +210,7 @@
     },
     "TextToSpeech": {
         "Choice": "GTTS",
-        "Speed": 0.9,
+        "Speed": 1.0,
         "Quality": 1,
         "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
         "Voice_Gender": "Female",
@@ -231,7 +221,7 @@
         ]
     },
     "Wakewords": {
-        "Custom_Wakeword": "off",
+        "Custom_Wakeword": "on",
         "Ok_Google": "on",
         "Picovoice_wakeword_models": [
             "/home/pi/ViPi/resources/picovoice_models/hey siri_raspberry-pi.ppn",
@@ -239,14 +229,16 @@
             "/home/pi/ViPi/resources/picovoice_models/alexa_raspberry-pi.ppn",
             "/home/pi/ViPi/resources/picovoice_models/hey google_raspberry-pi.ppn"
         ],
-        "Picovoice_wakeword_models_V2": [
+        "Picovoice_wakeword_models_v2": [
+            "/home/pi/ViPi/resources/picovoice_models_V2/v-p-o_en_raspberry-pi_v2_1_0.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_V2/v-b-o_en_raspberry-pi_v2_1_0.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_V2/V-b-i_en_raspberry-pi_v2_1_0.ppn",
             "/home/pi/ViPi/resources/picovoice_models_V2/hey siri_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/ok google_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/alexa_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/hey google_raspberry-pi.ppn"
+            "/home/pi/ViPi/resources/picovoice_models_V2/alexa_raspberry-pi.ppn"
         ],
         "Wakeword_Engine": "Picovoice",
-        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
+        "wakeword_models": "v1",
+        "access_key": "KG1JxBUIi4eoIdADxxxxx",
         "sensitivities": 0.3
     },
     "Weather": {
@@ -263,20 +255,19 @@
         "YouTube_Control": "on",
         "server": "http://150.230.60.61:5000"
     },
-    "app_news_radio": "on",
     "continue_conversation": "True",
     "led_setup": {
         "pixels": 12,
-        "type": "R2M"
+        "type": "ws2"
     },
     "led_ctr": {
         "type": "on"
     },
     "vol_setup": {
         "amixer_controls": "Master",
-        "type": "R2M",
+        "type": "ws2",
         "volume_max": 100,
-        "volume_min": 10,
-        "volume_start": 80
+        "volume_min": 0,
+        "volume_start": 70
     }
 }
