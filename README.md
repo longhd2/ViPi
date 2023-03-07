@@ -3,7 +3,7 @@
 
 (Khuyên dùng) IMG đã cài driver ReSpeaker 2 ở đây: https://vipiteam.page.link/img
 
-Để trải nghiệm bản test tiến hành cài đặt như sau: 
+Để trải nghiệm bản dành cho CPU armV7 tiến hành cài đặt như sau: 
 ```sh
 rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
