@@ -36,7 +36,7 @@
         ]
     },
     "Chromecast": {
-        "Chromecast_Control": "off",
+        "Chromecast_Control": "on",
         "Device_Names": [
             "trên loa",
             "trên tivi"
@@ -47,7 +47,7 @@
         ]
     },
     "ESP": {
-        "ESP_Control": "off",
+        "ESP_Control": "on",
         "IP": "xxxxxxxxxxxx",
         "deviceid": [
             "/Device1",
@@ -67,7 +67,7 @@
         "Interprer": "on"
     },
     "Gpios": {
-        "control": "off",
+        "control": "on",
         "gpio_logic": 0,
         "gpio_center": 0,
         "gpio_down": 13,
@@ -77,12 +77,12 @@
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "off",
-        "external_url": "http://vipi.xxx",
+        "control": "on",
+        "external_url": "http://vipi.duckdns.org:8123",
         "internal_url": "http://192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.xxxx.Qw36jUbAz6PKu19IgHCuR0fyYvGZhbIXfhbvas6zjQc",
-        "Home_Assistant_control": "off"
+        "token": "eyJhbGciXXODk0NSIsImlhdCI6MTY3NzQ3MjIzNywiZXhwIjoxOTkyODMyMjM3fQ.Qw36jUbAz6PKu19IgHCuR0fyYvGZhbIXfhbvas6zjQc",
+        "Home_Assistant_control": "on"
     },
     "IR": {
         "Codes": [
@@ -191,7 +191,7 @@
     "Start_config": {
         "Startup_file": "new_main",
         "Startup_voice": "off",
-        "Read_IP": "off"
+        "Read_IP": "On"
     },
     "Tasmota_devicelist": {
         "Tasmota_Control": "off",
@@ -209,8 +209,8 @@
         ]
     },
     "TextToSpeech": {
-        "Choice": "GTTS",
-        "Speed": 1.0,
+        "Choice": "ZTTS",
+        "Speed": 0.9,
         "Quality": 1,
         "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
         "Voice_Gender": "Female",
@@ -221,8 +221,6 @@
         ]
     },
     "Wakewords": {
-        "Custom_Wakeword": "on",
-        "Ok_Google": "on",
         "Picovoice_wakeword_models": [
             "/home/pi/ViPi/resources/picovoice_models/hey siri_raspberry-pi.ppn",
             "/home/pi/ViPi/resources/picovoice_models/ok google_raspberry-pi.ppn",
@@ -236,9 +234,10 @@
             "/home/pi/ViPi/resources/picovoice_models_V2/hey siri_raspberry-pi.ppn",
             "/home/pi/ViPi/resources/picovoice_models_V2/alexa_raspberry-pi.ppn"
         ],
-        "Wakeword_Engine": "Picovoice",
-        "wakeword_models": "v1",
-        "access_key": "KG1JxBUIi4eoIdADxxxxx",
+        "Wakeword_Engine_Google": "on",
+        "Wakeword_Engine_Picovoice": "on",
+        "wakeword_models": "v2",
+        "access_key": "KG1JxBUIi4eoIdAXX",
         "sensitivities": 0.3
     },
     "Weather": {
@@ -264,7 +263,7 @@
         "type": "on"
     },
     "vol_setup": {
-        "amixer_controls": "Master",
+        "amixer_controls": "master",
         "type": "ws2",
         "volume_max": 100,
         "volume_min": 0,
