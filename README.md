@@ -8,6 +8,11 @@
 rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 ```
+*Update 10.3.2023
+- Để sử dụng picovoice V2 Cần phải đăng ký acssenkey
+Và nâng cấp lib picovoice bằng lệnh sau
+ pip install pvporcupine==2.1.0
+- Fix zalotts
 **UPDATE NGÀY 25/02/2023
 + Hướng dẫn cài đặt cho IMG cài đặt sẵn Mic R2M!
  ```sh
