@@ -41,13 +41,13 @@
 <!-- 					File khởi động (new_main or new_start) <input name="startup_file" placeholder="{{startup_file}}">
  -->					Tên của bạn  <input name="vipiname" placeholder="{{boss}}">
 					Vị trí của bạn <input name="location" placeholder="{{location}}" >
-					Bật âm thanh khởi động (Enabled, Disabled)<input name="startup_sound" placeholder="{{startup_sound}}">
+					Bật âm thanh khởi động (on/off)<input name="startup_sound" placeholder="{{startup_sound}}">
 					Âm lượng khởi động (0-100)<input name="volume" placeholder="{{volume}}">
-					Đọc IP (Enabled, Disabled)<input name="get_ip" placeholder="{{get_ip}}">
+					Đọc IP (on/off)<input name="get_ip" placeholder="{{get_ip}}">
 			</div>
 		<h2 class="title-box">Cấu hình giọng nói <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-					STT: Nhận dạng âm thanh (GOOGLE_SDK only CPU ArmV7, ArmV8, GOOGLE_FREE, ZALO)<input name="stt" placeholder="{{stt}}">
+					STT: Nhận dạng âm thanh (ok_google,google_sdk only CPU ArmV7, ArmV8, google_free, Zalo)<input name="stt" placeholder="{{stt}}">
 					TTS: Giọng đọc  (ZTTS, GTTS)<input name="tts" placeholder="{{tts}}">
 					Độ nhạy Picovoice(Picovoice only 0.3 - 1.0)<input name="sensitivities" placeholder="{{sensitivities}}">
 					Giới tính giọng đọc (Male/Female)<input name="gender" placeholder="{{gender}}">
@@ -58,7 +58,7 @@
 			</div>
 		<h2 class="title-box">Cấu hình HASS <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-					Bật điều khiển Home_Assistant(Enabled, Disabled) <input name="Home_Assistant_control" placeholder="{{Home_Assistant_control}}">
+					Bật điều khiển Home_Assistant(on/off) <input name="Home_Assistant_control" placeholder="{{Home_Assistant_control}}">
 					Liên kết ngoài <input name="external_url" placeholder="{{external_url}}">
 					Liên kết nội bộ<input name="internal_url" placeholder="{{internal_url}}">
 					Độ chính xác<input name="ratiohass" placeholder="{{ratiohass}}">
@@ -67,7 +67,7 @@
 
 		<h2 class="title-box">Cấu đèn LED <span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-				Bật điều khiển đèn led (Enabled, Disabled)<input name="mic" placeholder="{{mic}}">
+				Bật điều khiển đèn led (on/off)<input name="mic" placeholder="{{mic}}">
 				Loại led (R2M, R4M, WS2, RUM)<input name="led" placeholder="{{led}}">
 				Số đèn led <input name="pixels" placeholder="{{pixels}}">
 			</div>
@@ -79,7 +79,7 @@
 			</div> -->
 		<h2 class="title-box">Cấu hình GPIOs<span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 			<div class="text-input-config">
-					Bật điều khiển GPIOs (Enabled, Disabled)<input name="control" placeholder="{{control}}">
+					Bật điều khiển GPIOs (on/off)<input name="control" placeholder="{{control}}">
 					Cấu hình mức logic GPIOs ( 0 or 1) <input name="gpio_logic" placeholder="{{gpio_logic}}">
 					Phím Up    - Stop        (nếu không sử dụng điền số 0 )<input name="gpio_up" placeholder="{{gpio_up}}">
 					Phím Down  - Assistant   (nếu không sử dụng điền số 0 )<input name="gpio_down" placeholder="{{gpio_down}}">
