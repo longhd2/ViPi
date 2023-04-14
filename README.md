@@ -8,6 +8,19 @@
 rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 ```
+
+*UPDATE NGÀY 15/04/2023
+- Bổ sung thêm giọng đọc: Edge-tts
+   ```sh
+pip install edge-tts
+```
+- Bổ sung thêm giọng thay đổi giọng nói bằng cách gọi bot;
+- Vipi ơi, đổi giọng google
+   ```sh
+Vipi ơi, đổi giọng google (hoặc gtts)
+Vipi ơi, đổi giọng nam google
+Vipi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
+```
 *Update 10.3.2023
 - Để sử dụng picovoice V2 Cần phải đăng ký acssenkey
 Và nâng cấp lib picovoice bằng lệnh sau
