@@ -1,6 +1,5 @@
 {
     "Boss": "Minh Anh",
-    "Use_Google_Assistant": "off",
     "Pushbullet": {
         "Control": "off",
         "Names": [
@@ -36,7 +35,7 @@
         ]
     },
     "Chromecast": {
-        "Chromecast_Control": "on",
+        "Control": "on",
         "Device_Names": [
             "trên loa",
             "trên tivi"
@@ -46,20 +45,6 @@
             "192.168.1.209"
         ]
     },
-    "ESP": {
-        "ESP_Control": "on",
-        "IP": "xxxxxxxxxxxx",
-        "deviceid": [
-            "/Device1",
-            "/Device2",
-            "/Device3"
-        ],
-        "devicename": [
-            "Device 1",
-            "Device 2",
-            "Device 3"
-        ]
-    },
     "Google_Assistant": {
         "Google_cloud_api_key": "AIzaSyBlN3_7HDNM-ByZaDUUoGi5tItiGZVdo1c",
         "device_model_id": "new-vipi-dev-new-speaker",
@@ -67,7 +52,7 @@
         "Interprer": "on"
     },
     "Gpios": {
-        "control": "on",
+        "control": "off",
         "gpio_logic": 0,
         "gpio_center": 0,
         "gpio_down": 13,
@@ -78,13 +63,13 @@
     },
     "Home_Assistant": {
         "control": "on",
-        "external_url": "http://vipi.duckdns.org:8123",
-        "internal_url": "http://192.168.1.150:8123",
+        "external_url": "http:\/\/vipi.duckdns.org:8123",
+        "internal_url": "http:\/\/192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJhbGciXXODk0NSIsImlhdCI6MTY3NzQ3MjIzNywiZXhwIjoxOTkyODMyMjM3fQ.Qw36jUbAz6PKu19IgHCuR0fyYvGZhbIXfhbvas6zjQc",
-        "Home_Assistant_control": "on"
+        "token": "eyJhbGciOiXMTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnYXX"
     },
     "IR": {
+        "Control": "off",
         "Codes": [
             2155813095,
             6690454,
@@ -111,7 +96,6 @@
             "radio",
             "story"
         ],
-        "IR_Control": "off",
         "Music_list": [
             "nhạc thiếu nhi",
             "cháu thương chú bộ đội",
@@ -135,85 +119,39 @@
             "truyện cây khế"
         ]
     },
-    "Language": {
-        "Choice": "vi-VN",
-        "Language options": [
-            "en-US",
-            "vi-VN"
-        ]
-    },
-    "MQTT": {
-        "IP": "Enter your MQTT IP ADDRESS here",
-        "MQTT_Control": "off",
-        "PSWRD": "Enter your MQTT PASSWORD here",
-        "TOPIC": "ENTER your MQTT TOPIC here",
-        "UNAME": "Enter your MQTT USERNAME here"
-    },
-    "Radio_stations": {
-        "Radio_Control": "on",
-        "stationlinks": [
-            "http://media.kythuatvov.vn:1936/live/VOV1.sdp/playlist.m3u8",
-            "http://stream2.mobiradio.vn/vovradio/vov2.stream/chunklist.m3u8",
-            "http://stream2.mobiradio.vn/vovradio/vov3.stream/chunklist.m3u8",
-            "http://stream2.mobiradio.vn/vovradio/vovgthn.stream/chunklist.m3u8",
-            "http://stream2.mobiradio.vn/vovradio/vovgthcm.stream/chunklist.m3u8",
-            "https://stream.mydio.vn/1agAu8B0g7jhQxLxnHaSYw/1665515324/mydio/vov_fm89.stream/chunklist.m3u8"
+    "Radio": {
+        "Control": "on",
+        "links": [
+            "http:\/\/media.kythuatvov.vn:1936\/live\/VOV1.sdp\/playlist.m3u8",
+            "http:\/\/stream2.mobiradio.vn\/vovradio\/vov2.stream\/chunklist.m3u8",
+            "http:\/\/stream2.mobiradio.vn\/vovradio\/vov3.stream\/chunklist.m3u8",
+            "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthn.stream\/chunklist.m3u8",
+            "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthcm.stream\/chunklist.m3u8",
+            "https:\/\/stream.mydio.vn\/1agAu8B0g7jhQxLxnHaSYw\/1665515324\/mydio\/vov_fm89.stream\/chunklist.m3u8"
         ],
-        "stationnames": [
+        "names": [
             "VOV1",
             "VOV2",
             "VOV3",
             "VOV HÀ NỘI",
             "VOV HỒ CHÍ MINH",
             "VOV FM98"
-        ],
-        "stationradio": [
-            "VOV1",
-            "VOV2",
-            "VOV3",
-            "VOV GIAO THÔNG HÀ NỘI",
-            "VOV GIAO THÔNG HỒ CHÍ MINH",
-            "VOV FM98"
-        ]
-    },
-    "Raspberrypi_GPIO_Control": {
-        "GPIO_Control": "off",
-        "lightnames": [
-            "kitchen lights",
-            "bathroom lights",
-            "bedroom lights"
         ]
     },
     "Register_Device": "false",
     "SpeechToText": {
-        "Choice": "google_sdk"
+        "Choice": "gtts"
     },
     "Start_config": {
         "Startup_file": "new_main",
-        "Startup_voice": "off",
-        "Read_IP": "On"
-    },
-    "Tasmota_devicelist": {
-        "Tasmota_Control": "off",
-        "friendly-names": [
-            "Desk Light",
-            "Table Light"
-        ],
-        "ipaddresses": [
-            "192.168.1.36",
-            "192.168.1.35"
-        ],
-        "portID": [
-            "1",
-            "1"
-        ]
+        "Startup_voice": "on",
+        "Read_IP": "on"
     },
     "TextToSpeech": {
-        "Choice": "ZTTS",
+        "Choice": "ztts",
         "Speed": 0.9,
         "Quality": 1,
-        "Google_Cloud_TTS_Credentials_Path": "ENTER THE PATH TO YOUR TTS CREDENTIALS FILE HERE",
-        "Voice_Gender": "Female",
+        "Voice_Gender": "Male",
         "Voice_Region": "South",
         "Zalo_API": [
             "E8mpp9RGC2rBAV6I58AXD3LFQtDXE9TS",
@@ -222,22 +160,24 @@
     },
     "Wakewords": {
         "Picovoice_wakeword_models": [
-            "/home/pi/ViPi/resources/picovoice_models/hey siri_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models/ok google_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models/alexa_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models/hey google_raspberry-pi.ppn"
+            "\/home\/pi\/ViPi\/resources\/picovoice_models\/hey siri_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models\/ok google_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models\/alexa_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models\/hey google_raspberry-pi.ppn"
         ],
         "Picovoice_wakeword_models_v2": [
-            "/home/pi/ViPi/resources/picovoice_models_V2/v-p-o_en_raspberry-pi_v2_1_0.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/v-b-o_en_raspberry-pi_v2_1_0.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/V-b-i_en_raspberry-pi_v2_1_0.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/hey siri_raspberry-pi.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_V2/alexa_raspberry-pi.ppn"
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/v-p-o_en_raspberry-pi_v2_1_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/v-b-o_en_raspberry-pi_v2_1_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/V-b-i_en_raspberry-pi_v2_1_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/hey siri_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/alexa_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/ok google_raspberry-pi.ppn"
         ],
         "Wakeword_Engine_Google": "on",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "v2",
-        "access_key": "KG1JxBUIi4eoIdAXX",
+        "access_key1": "KG1JxBUIi4eoIdADVu59ZXXXX",
+        "access_key": "zTVFbTOtmBPmw+rj5AgK5QVoCCCXXXX",
         "sensitivities": 0.3
     },
     "Weather": {
@@ -251,22 +191,22 @@
         "location": "Tam Kỳ, Quảng Nam"
     },
     "YouTube": {
-        "YouTube_Control": "on",
-        "server": "http://150.230.60.61:5000"
+        "YouTube_Control": "off",
+        "server": "http:\/\/150.230.60.61:5000"
     },
-    "continue_conversation": "True",
+    "Ask_again": {
+        "control": "on"
+    },
     "led_setup": {
+        "control": "on",
         "pixels": 12,
-        "type": "ws2"
-    },
-    "led_ctr": {
-        "type": "on"
+        "type": "r2m"
     },
     "vol_setup": {
-        "amixer_controls": "master",
-        "type": "ws2",
+        "amixer_controls": "Headphone",
+        "type": "r2m",
         "volume_max": 100,
         "volume_min": 0,
-        "volume_start": 70
+        "volume_start": 80
     }
 }
