@@ -18,9 +18,9 @@ pip install edge-tts
 
 ```sh
 - Vipi ơi, đổi giọng google
-Vipi ơi, đổi giọng google (hoặc gtts)
-Vipi ơi, đổi giọng nam google
-Vipi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
+- Vipi ơi, đổi giọng google (hoặc gtts)
+- Vipi ơi, đổi giọng nam google
+- Vipi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
 ```
 *Update 10.3.2023
 - Để sử dụng picovoice V2 Cần phải đăng ký acssenkey
