@@ -11,12 +11,13 @@ git clone https://github.com/longhd2/ViPi.git
 
 *UPDATE NGÀY 15/04/2023
 - Bổ sung thêm giọng đọc: Edge-tts
-   ```sh
+```sh
 pip install edge-tts
 ```
 - Bổ sung thêm giọng thay đổi giọng nói bằng cách gọi bot;
+
+```sh
 - Vipi ơi, đổi giọng google
-   ```sh
 Vipi ơi, đổi giọng google (hoặc gtts)
 Vipi ơi, đổi giọng nam google
 Vipi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
