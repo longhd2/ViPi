@@ -14,7 +14,7 @@ git clone https://github.com/longhd2/ViPi.git
 ```sh
 pip install edge-tts
 ```
-- Bổ sung thêm giọng thay đổi giọng nói bằng cách gọi bot;
+- có thể thay đổi giọng nói bằng cách gọi bot, hoặc chỉnh trên wed 
 
 ```sh
 - Vipi ơi, đổi giọng google
