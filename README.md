@@ -9,8 +9,9 @@ rm -rf ViPi/
 git clone https://github.com/longhd2/ViPi.git
 ```
 
-
-*UPDATE NGÀY 17/04/2023
+--------------------------
+# UPDATE NGÀY 17/04/2023 #
+--------------------------
 - Hotword mặc định trong code:
 
 	 -- Vi Pi ơi
@@ -19,15 +20,21 @@ git clone https://github.com/longhd2/ViPi.git
 	 -- Ok Google
 	 
  ==> Để sử dụng tiến hành đăng ký AccessKey tại: https://console.picovoice.ai/"
+ 
  ![image](https://user-images.githubusercontent.com/43842525/232323291-376eaddb-d580-4417-abba-da84da67fa8d.png)
+ 
 ==> Coppy AccessKey dán vào file config.json (Sẽ bổ sung tùy chọn dán vào setting trên wed sau)
+
 ![image](https://user-images.githubusercontent.com/43842525/232323492-ea00ff5d-d0d2-45c6-b155-da6f3c5b7346.png)
  
- Và nâng cấp Picovice
+ Và cài đặt nâng cấp Picovice
 ```sh
 pip install pvporcupine==2.2.0
 ```
-*UPDATE NGÀY 15/04/2023
+
+------------------------
+#UPDATE NGÀY 15/04/2023#
+------------------------
 - Bổ sung thêm giọng đọc: Edge-tts
 ```sh
 pip install edge-tts
