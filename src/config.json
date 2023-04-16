@@ -35,7 +35,7 @@
         ]
     },
     "Chromecast": {
-        "Control": "on",
+        "Control": "off",
         "Device_Names": [
             "trên loa",
             "trên tivi"
@@ -62,11 +62,11 @@
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "on",
-        "external_url": "http:\/\/vipi.duckdns.org:8123",
-        "internal_url": "http:\/\/192.168.1.150:8123",
+        "control": "off",
+        "external_url": "https://",
+        "internal_url": "http://192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJhbGciOiXMTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnYXX"
+        "token": "eyJhbGcXX"
     },
     "IR": {
         "Control": "off",
@@ -176,7 +176,6 @@
         "Wakeword_Engine_Google": "on",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "v2",
-        "access_key1": "KG1JxBUIi4eoIdADVu59ZXXXX",
         "access_key": "zTVFbTOtmBPmw+rj5AgK5QVoCCCXXXX",
         "sensitivities": 0.3
     },
@@ -198,7 +197,7 @@
         "control": "on"
     },
     "led_setup": {
-        "control": "on",
+        "control": "off",
         "pixels": 12,
         "type": "r2m"
     },
