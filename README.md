@@ -32,9 +32,10 @@ git clone https://github.com/longhd2/ViPi.git
 pip install pvporcupine==2.2.0
 ```
 
-------------------------
-#UPDATE NGÀY 15/04/2023#
-------------------------
+
+--------------------------
+# UPDATE NGÀY 15/04/2023 #
+--------------------------
 - Bổ sung thêm giọng đọc: Edge-tts
 ```sh
 pip install edge-tts
@@ -47,7 +48,11 @@ pip install edge-tts
 - Vipi ơi, đổi giọng nam google
 - Vipi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
 ```
-*Update 10.3.2023
+
+
+--------------------------
+# UPDATE NGÀY 10/03/2023 #
+--------------------------
 - Để sử dụng picovoice V2 Cần phải đăng ký acssenkey
 Và nâng cấp lib picovoice bằng lệnh sau
  ```sh
@@ -55,7 +60,11 @@ pip install pvporcupine==2.1.0
 ```
 - Fix zalotts
 
-*UPDATE NGÀY 25/02/2023
+
+
+--------------------------
+# UPDATE NGÀY 25/02/2023 #
+--------------------------
 + Hướng dẫn cài đặt cho IMG cài đặt sẵn Mic R2M!
  ```sh
 
@@ -78,12 +87,18 @@ Vào ip:5002/setting chọn Mic, led chính xác
 	+ Thay đổi điều khiển led
 	+ Và bổ sung thêm lỗi mới
 
-**UPDATE NGÀY 05/02/2023
+
+--------------------------
+# UPDATE NGÀY 05/02/2023 #
+--------------------------
 - Nhấn giữ 30 giây GPIO 17 - nối GND (hoặc phím bấm trên 2 mic re) reset Wifi vào IMG
 - OFF hotword OK GOOGLE - chỉ sử dụng PICOVOICE ONLY
 - STT: GOOGLE_SDK (ONLY CPU Armv7, ArmV8); GOOGLE_FREE; ZALO_FREE
 
-**UPDATE NGÀY 17/01/2023
+
+--------------------------
+# UPDATE NGÀY 17/01/2023 #
+--------------------------
 - Để sử dụng khi không xác thực được tài khoản với google, hạn chế không sử dụng được hotword "OK Google" và STT google và Không điều khiển được thiết bị trên HomeApp của Google, tốc độ chậm hơn 1 chút
 
 ```sh
@@ -92,7 +107,12 @@ sudo dpkg -i flac_1.3.3-2+deb11u1_armhf.deb
 ```
 
 *Lưu ý: Nếu sử dụng IMG có sẵn thì các bạn không cần làm các bước nên dưới
-# A: CẤU HÌNH & CÀI ĐẶT:
+
+
+--------------------------
+#  A: CẤU HÌNH & CÀI ĐẶT: #
+--------------------------
+
 ## Tải về
 ```sh
 sudo apt-get install git -y && git clone https://github.com/longhd2/ViPi
@@ -217,7 +237,10 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
 
     Để xem Log hoạt động vào thư mục home/pi/ViPi.log
 
-# B: TÍNH NĂNG:
+--------------------
+# B: TÍNH NĂNG:    #
+--------------------
+
 # 1. Âm nhạc:
     a. Mở nhạc
     b. Điều khiển nhạc
@@ -303,4 +326,3 @@ bước 2). Mở file cus_skill thêm skill vào nội dung bạn muốn:
             
 Chúc bạn thành công!
         
-Viết trước cái sườn hôm nào rảnh cập nhật sau:
