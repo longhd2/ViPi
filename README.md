@@ -13,11 +13,8 @@ git clone https://github.com/longhd2/ViPi.git
 # UPDATE NGÀY 17/04/2023 #
 --------------------------
 - Hotword mặc định trong code:
-
 	 -- Vi Pi ơi
 	 -- Tèo ơi
-	 -- Alexa
-	 -- Ok Google
 	 
  ==> Để sử dụng tiến hành đăng ký AccessKey tại: https://console.picovoice.ai/"
  
