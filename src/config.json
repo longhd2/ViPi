@@ -166,12 +166,9 @@
             "\/home\/pi\/ViPi\/resources\/picovoice_models\/hey google_raspberry-pi.ppn"
         ],
         "Picovoice_wakeword_models_v2": [
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/v-p-o_en_raspberry-pi_v2_1_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/v-b-o_en_raspberry-pi_v2_1_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/V-b-i_en_raspberry-pi_v2_1_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/hey siri_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/alexa_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/ok google_raspberry-pi.ppn"
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
         "Wakeword_Engine_Google": "on",
         "Wakeword_Engine_Picovoice": "on",
