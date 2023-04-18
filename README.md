@@ -13,7 +13,9 @@ git clone https://github.com/longhd2/ViPi.git
 # UPDATE NGÀY 17/04/2023 #
 --------------------------
 - Hotword mặc định trong code:
+
 	 -- Vi Pi ơi
+	 -- Vi Bi ơi
 	 -- Tèo ơi
 	 
  ==> Để sử dụng tiến hành đăng ký AccessKey tại: https://console.picovoice.ai/"
@@ -253,8 +255,8 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
 # 4. Tra cứu thông tin:
     a. Hỏi thời tiết
     b. Hỏi tin tức
-        - ok google, hôm nay có tin gì mới
-        - ok google, đọc tin thể thao
+        - Vi Pi ơi, hôm nay có tin gì mới
+        - Vi Pi ơi, đọc tin thể thao
     c. Tra cứu thông tin covid:
         - ok google, tin tức về covid
         - ok google, Việt Nam có bao nhiêu ca covid
@@ -274,17 +276,17 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
     e. Hỏi đáp kiến thức
 # 8. Chế độ trò truyện liên tục
     a. Bật chế độ hội thoại: (hotword + ['hỏi đáp','hội thoại','trò chuyện','liên tục','nói chuyện'])
-        - ok google, bật hội thoại
+        - Vi Pi ơi, bật hội thoại
     b. Tắt chế độ hội thoại
         - Dừng lại, ngừng lại, thoát
 # 9. Nghe radio:
-     - Bot hỗ trợ 9 kênh radio sau:
+     - Bot hỗ trợ các kênh radio sau: VOV1, VOV2, VOV3, VOV GIAO THÔNG HÀ NỘI, VOV GIAO THÔNG HCM
     a. Mở radio
     b. Tắt radio
 # 10. Gửi tin nhắn đến Telegram:
      a. Kích hoạt
-        - ok google, gửi lời nhắn cho bố
-        - ok google, nhắn tin cho mẹ
+        - Vi Pi ơi, gửi lời nhắn cho bố
+        - Vi Pi ơi, nhắn tin cho mẹ
      b. Đọc nội dung cần gửi
         - bố ơi về đi, con đói bụng lắm rồi
 # 11. Điều khiển thiết bị chromecast:
@@ -293,8 +295,8 @@ Ctrl + X, Y, Enter để save. Xong reboot lại Pi, có thể mở web lên nh�
      b. Điều khiển âm lượng thiết bị chromecast
        - ok google, tăng âm lượng trên tivi
 # 12. Đa lệnh
-     - ok google, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
-     - ok google, bật đèn phòng khách tắt đèn phòng ngủ thời tiết hôm nay
+     - Vi Pi ơi, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
+     - Vi Pi ơi, bật đèn phòng khách tắt đèn phòng ngủ thời tiết hôm nay
 # 12. Custom_Skill:
 a. Cấu trúc, Ví dụ
 ```sh
