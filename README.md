@@ -18,11 +18,11 @@ git clone https://github.com/longhd2/ViPi.git
 	 -- Vi Bi ơi
 	 -- Tèo ơi
 	 
- ==> Để sử dụng tiến hành đăng ký AccessKey tại: https://console.picovoice.ai/"
+- Để sử dụng tiến hành đăng ký AccessKey tại: https://console.picovoice.ai/"
  
  ![image](https://user-images.githubusercontent.com/43842525/232323291-376eaddb-d580-4417-abba-da84da67fa8d.png)
  
-==> Coppy AccessKey dán vào file config.json (Sẽ bổ sung tùy chọn dán vào setting trên wed sau)
+- Coppy AccessKey dán vào file config.json (Sẽ bổ sung tùy chọn dán vào setting trên wed sau)
 
 ![image](https://user-images.githubusercontent.com/43842525/232323492-ea00ff5d-d0d2-45c6-b155-da6f3c5b7346.png)
  
@@ -42,10 +42,10 @@ pip install edge-tts
 - có thể thay đổi giọng nói bằng cách gọi bot, hoặc chỉnh trên wed 
 
 ```sh
-- Vipi ơi, đổi giọng google
-- Vipi ơi, đổi giọng google (hoặc gtts)
-- Vipi ơi, đổi giọng nam google
-- Vipi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
+-- Tèo ơi, đổi giọng google
+-- Vi Pi ơi, đổi giọng google (hoặc gtts)
+-- Vi Pi ơi, đổi giọng nam google
+-- Vi Pi ơi, đổi giọng zalo nam (hoặc ztts), giọng edge...
 ```
 
 
@@ -310,7 +310,7 @@ bước 1. Mở file key word thêm key trong mảng keyword (lưu ý để skil
 ```sh
 	"keyword": {
 		"cus_fire_name": [
-			"chuẩn bị tên lửa"
+			"lời chúc tết "
 	    },
 ```
 ```sh
@@ -318,7 +318,7 @@ bước 2). Mở file cus_skill thêm skill vào nội dung bạn muốn:
 ```
 ```sh
 	if skill=='cus_fire_name':
-	    answer=['bệ phóng đã sẵn sàng', 'tên lửa đã sãn sàng, chờ lệnh']
+	    answer=['chúc tết XXXX', 'chúc tết XXXX']
 	    answer=random.choice(answer)
 	    print(answer)
 ```
