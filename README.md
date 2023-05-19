@@ -1,6 +1,6 @@
 # ViPi Assistant
 
-IMG đã cài driver Mic USB, để dùng với MicReSpeaker cài thêm driver: https://vipiteam.page.link/img
+IMG đã cài driver Mic USB: https://vipiteam.page.link/im để dùng với MicReSpeaker cài thêm driver cho Mic
 
  - Linux kernel 5.15.84 
  - User/pass Pi :(pi/raspberry)
