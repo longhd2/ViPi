@@ -1,14 +1,24 @@
 # ViPi Assistant
-Để dùng bản chính thức hãy làm theo hướng dẫn ở đây: https://github.com/thangnd85/ViPi.git
 
-(Khuyên dùng) IMG đã cài driver ReSpeaker 2 ở đây: https://vipiteam.page.link/img
+IMG đã cài driver Mic USB, để dùng với MicReSpeaker cài thêm driver: https://vipiteam.page.link/img
+ *Linux kernel 5.15.84
+ *Thay đổi sang môi trường Virtual Environment
+ *Không bắt buộc phải đăng ký tài khoản với Google
+ *Ra lệnh đổi giọng trực tiếp bằng lời nói
+ *Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:5002
+ *Xem hoạt đông : IP:9001 (user/pass: vipi/vipi)
+ *User/pass Pi :(pi/raspberry)
 
-Để trải nghiệm bản dành cho CPU armV7 trở lên tiến hành cài đặt như sau: 
-```sh
-rm -rf ViPi/
-git clone https://github.com/longhd2/ViPi.git
-```
-
+--------------------------
+# "Revision":19052023
+--------------------------
+ *Thay đổi sang môi trường Virtual Environment
+ *Không bắt buộc phải đăng ký tài khoản với Google
+ *Ra lệnh đổi giọng trực tiếp bằng lời nói
+ *Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:5002
+ *Xem hoạt đông : IP:9001 (user/pass: vipi/vipi)
+ *User/pass Pi :(pi/raspberry)
+ 
 --------------------------
 # UPDATE NGÀY 17/04/2023 #
 --------------------------
