@@ -2,21 +2,32 @@
 
 IMG đã cài driver Mic USB, để dùng với MicReSpeaker cài thêm driver: https://vipiteam.page.link/img
  *Linux kernel 5.15.84
+ 
  *Thay đổi sang môi trường Virtual Environment
+ 
  *Không bắt buộc phải đăng ký tài khoản với Google
+ 
  *Ra lệnh đổi giọng trực tiếp bằng lời nói
+ 
  *Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:5002
+ 
  *Xem hoạt đông : IP:9001 (user/pass: vipi/vipi)
+ 
  *User/pass Pi :(pi/raspberry)
 
 --------------------------
 # "Revision":19052023
 --------------------------
  *Thay đổi sang môi trường Virtual Environment
+ 
  *Không bắt buộc phải đăng ký tài khoản với Google
+ 
  *Ra lệnh đổi giọng trực tiếp bằng lời nói
+ 
  *Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:5002
+ 
  *Xem hoạt đông : IP:9001 (user/pass: vipi/vipi)
+ 
  *User/pass Pi :(pi/raspberry)
  
 --------------------------
