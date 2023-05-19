@@ -76,31 +76,8 @@ IMG đã cài driver Mic USB: https://vipiteam.page.link/im để dùng với Mi
 # 12. Đa lệnh
      - Vi Pi ơi, bật đèn phòng khách và phát bài hát vĩnh biệt màu xanh
      - Vi Pi ơi, bật đèn phòng khách tắt đèn phòng ngủ thời tiết hôm nay
-# 12. Custom_Skill:
-a. Cấu trúc, Ví dụ
-```sh
-	- Để thêm skill cho bot, các bạn xem hướng dẫn và skill ví dụ trong file cus_skill
-	- Ví dụ skill cus_fire_name
-```
-a) Ví dụ skill cus_fire_name: 
-```sh
-bước 1. Mở file key word thêm key trong mảng keyword (lưu ý để skill hoạt động được bắt buộc tiền tố đầu phỉa là: cus_.....
-```
-```sh
-	"keyword": {
-		"cus_fire_name": [
-			"lời chúc tết "
-	    },
-```
-```sh
-bước 2). Mở file cus_skill thêm skill vào nội dung bạn muốn:
-```
-```sh
-	if skill=='cus_fire_name':
-	    answer=['chúc tết XXXX', 'chúc tết XXXX']
-	    answer=random.choice(answer)
-	    print(answer)
-```
-            
-Chúc bạn thành công!
-        
+
+# 12. Đổi giọng đọc
+     - Vi Pi ơi, đổi giọng edge nam
+     - Vi Pi ơi, đổi giọng zalo nam
+     - Vi Pi ơi, đổi giọng google nam
