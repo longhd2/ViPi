@@ -35,7 +35,7 @@
         ]
     },
     "Chromecast": {
-        "Control": "off",
+        "Control": "on",
         "Device_Names": [
             "trên loa",
             "trên tivi"
@@ -62,11 +62,11 @@
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "off",
-        "external_url": "https://",
-        "internal_url": "http://192.168.1.150:8123",
+        "control": "on",
+        "external_url": "http:\/\/vipia.duckdns.org:8123",
+        "internal_url": "http:\/\/192.168.1.150:8123",
         "ratio": 75,
-        "token": "eyJhbGcXX"
+        "token": "nR5cCI6IkpXVCJ9.eyJpc3MiOiIwNmE1NmQxMDNkOWM0OTZlODg3MWU2OWUzYjY4ZjU5YyIsImlhdCI6MTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnY"
     },
     "IR": {
         "Control": "off",
@@ -140,7 +140,7 @@
     },
     "Register_Device": "false",
     "SpeechToText": {
-        "Choice": "gtts"
+        "Choice": "google"
     },
     "Start_config": {
         "Startup_file": "new_main",
@@ -148,7 +148,7 @@
         "Read_IP": "on"
     },
     "TextToSpeech": {
-        "Choice": "ztts",
+        "Choice": "etts",
         "Speed": 0.9,
         "Quality": 1,
         "Voice_Gender": "Male",
@@ -170,10 +170,10 @@
             "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
-        "Wakeword_Engine_Google": "on",
+        "Wakeword_Engine_Google": "off",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "v2",
-        "access_key": "zTVFbTOtmBPmw+rj5AgK5QVoCCCXXXX",
+        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931",
         "sensitivities": 0.3
     },
     "Weather": {
@@ -191,16 +191,16 @@
         "server": "http:\/\/150.230.60.61:5000"
     },
     "Ask_again": {
-        "control": "on"
+        "control": "off"
     },
     "led_setup": {
-        "control": "off",
+        "control": "on",
         "pixels": 12,
         "type": "r2m"
     },
     "vol_setup": {
-        "amixer_controls": "Headphone",
-        "type": "r2m",
+        "amixer_controls": "Master",
+        "number_cards": "1",
         "volume_max": 100,
         "volume_min": 0,
         "volume_start": 80

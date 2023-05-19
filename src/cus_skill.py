@@ -27,4 +27,4 @@ def cus_skill(skill,data):
         answer=['bệ phóng đã sẵn sàng', 'tên lửa đã sãn sàng, chờ lệnh']
         answer=random.choice(answer)
         print(answer)
-    return answer
+    return answer,True
