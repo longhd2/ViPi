@@ -192,23 +192,15 @@
 		],
 		"sma_open_cover": [
 			"mở rèm",
-			"kéo rèm lên",
-			"kéo rèm ra"
+			"kéo rèm"
 		],
 		"sma_stop_cover": [
 			"dừng kéo rèm",
-			"ngừng kéo lên"
+			"ngừng kéo rèm"
 		],
-		"sma_open_covertilt": [
-			"mở rèm nghiêng",
-			"kéo rèm nghiêng"
-		],
-		"sma_stop_covertilt": [
-			"dừng kéo rèm nghiêng"
-		],
-		"sma_close_covertilt": [
-			"đóng rèm nghiêng",
-			"kéo rèm nghiêng lại"
+		"sma_close_cover": [
+			"đóng rèm",
+			"kéo rèm"
 		],
 		"sma_on_fan": [
 			"bật quạt",
