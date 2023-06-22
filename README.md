@@ -16,7 +16,8 @@ sudo reboot now
 --------------------------
 # Revision:19052023
 --------------------------
- * Thay đổi sang môi trường Virtual Environment (lệnh vào ENV)
+ * Thay đổi sang môi trường Virtual Environment 
+ Mở terminal và kích hoạt môi trường ảo bằng lệnh:
 ```sh
    source env/bin/activate
 ```
