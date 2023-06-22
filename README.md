@@ -16,7 +16,10 @@ sudo reboot now
 --------------------------
 # Revision:19052023
 --------------------------
- * Thay đổi sang môi trường Virtual Environment
+ * Thay đổi sang môi trường Virtual Environment (lệnh vào ENV)
+```sh
+   source env/bin/activate
+```
  * Không bắt buộc phải đăng ký tài khoản với Google
  * Ra lệnh đổi giọng trực tiếp bằng lời nó
  * Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:5002
