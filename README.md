@@ -4,7 +4,15 @@ IMG đã cài driver Mic USB: https://drive.google.com/file/d/1YFjD6JKGK988xVYs0
 
  - Linux kernel 5.15.84 
  - User/pass Pi :(pi/raspberry)
-
+ - 
+# Để cài driver Mic ReSpeaker hãy chạy các lệnh sau:
+'''sh
+cd /home/${USER}/
+git clone https://github.com/HinTak/seeed-voicecard
+cd seeed-voicecard
+sudo ./install.sh
+sudo reboot now
+'''
 --------------------------
 # Revision:19052023
 --------------------------
