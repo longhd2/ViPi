@@ -18,16 +18,21 @@ tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .aso
 
 ```
 --------------------------
-# Revision:19052023
+# Revision: 30062023
 --------------------------
+Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:8888 hoặc hostname:8888
 Mặc định phím bấm, Để thay đổi vào setting cài đặt lại
 Phím: Volume - , Mức logic: 0, GPIO: 26
 Phím: Volume + , Mức logic: 0, GPIO: 22
 Phím: Play/stop, Mức logic: 0, GPIO: 13
 Phím: Assistant, Mức logic: 0, GPIO: 25 (nhấn single để gọi nhanh Asistant, nhấn double để bật tắt mic)
 
+Để bật tắt chế độ nghe liên tục hãy thay đổi on/off ở dòng sau trong config.json
+    "Ask_again": {
+        "control": "on"
+    },
 --------------------------
-# Revision:19052023
+# Revision: 19052023
 --------------------------
  * Thay đổi sang môi trường Virtual Environment 
  Mở terminal và kích hoạt môi trường ảo bằng lệnh:
@@ -36,7 +41,7 @@ Phím: Assistant, Mức logic: 0, GPIO: 25 (nhấn single để gọi nhanh Asis
 ```
  * Không bắt buộc phải đăng ký tài khoản với Google
  * Ra lệnh đổi giọng trực tiếp bằng lời nó
- * Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:5002
+ * Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:8888
  * Xem hoạt đông : IP:9001 (user/pass: vipi/vipi)
  * Truy cập: https://console.picovoice.ai/ để lấy AccessKey
 
