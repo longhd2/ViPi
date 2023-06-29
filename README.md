@@ -11,8 +11,13 @@ cd /home/${USER}/
 git clone https://github.com/HinTak/seeed-voicecard
 cd seeed-voicecard
 sudo ./install.sh
-sudo reboot now
+
+sudo nano /usr/share/alsa/alsa.conf
+
+tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .asoundrc
+
 ```
+
 --------------------------
 # Revision:19052023
 --------------------------
