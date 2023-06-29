@@ -34,6 +34,11 @@ tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .aso
          "control": "on"
      },
 ```
+* Để nghe nhạc trên youtube: Hotword + Khẩu lệnh + Tên bài hát + Youtube
+```sh
+Ví dụ: Tèo ơi, phát bài hát hai mùa mưa trên Youtube
+       vipi ơi, phát bài hát hai mùa mưa trên du tút
+```
 --------------------------
 # Revision: 19052023
 --------------------------
