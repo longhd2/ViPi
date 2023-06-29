@@ -1,5 +1,5 @@
 {
-    "Boss": "Minh Anh",
+    "Boss": "Hà Long",
     "Pushbullet": {
         "Control": "off",
         "Names": [
@@ -35,7 +35,7 @@
         ]
     },
     "Chromecast": {
-        "Control": "on",
+        "Control": "off",
         "Device_Names": [
             "trên loa",
             "trên tivi"
@@ -52,21 +52,21 @@
         "Interprer": "on"
     },
     "Gpios": {
-        "control": "off",
+        "control": "on",
         "gpio_logic": 0,
         "gpio_center": 0,
-        "gpio_down": 13,
+        "gpio_down": 25,
         "gpio_left": 26,
-        "gpio_right": 5,
-        "gpio_up": 22,
+        "gpio_right": 22,
+        "gpio_up": 13,
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "on",
-        "external_url": "http:\/\/vipia.duckdns.org:8123",
+        "control": "off",
+        "external_url": "http:\/\/vipi.duckdns.org:8123",
         "internal_url": "http:\/\/192.168.1.150:8123",
         "ratio": 75,
-        "token": "nR5cCI6IkpXVCJ9.eyJpc3MiOiIwNmE1NmQxMDNkOWM0OTZlODg3MWU2OWUzYjY4ZjU5YyIsImlhdCI6MTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnY"
+        "token": "XXXX.eyJpc3MiOiIwNmE1NmQxMDNkOWM0OTZlODg3MWU2OWUzYjY4ZjU5YyIsImlhdCI6MTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnY"
     },
     "IR": {
         "Control": "off",
@@ -126,16 +126,14 @@
             "http:\/\/stream2.mobiradio.vn\/vovradio\/vov2.stream\/chunklist.m3u8",
             "http:\/\/stream2.mobiradio.vn\/vovradio\/vov3.stream\/chunklist.m3u8",
             "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthn.stream\/chunklist.m3u8",
-            "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthcm.stream\/chunklist.m3u8",
-            "https:\/\/stream.mydio.vn\/1agAu8B0g7jhQxLxnHaSYw\/1665515324\/mydio\/vov_fm89.stream\/chunklist.m3u8"
+            "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthcm.stream\/chunklist.m3u8"
         ],
         "names": [
             "VOV1",
             "VOV2",
             "VOV3",
             "VOV HÀ NỘI",
-            "VOV HỒ CHÍ MINH",
-            "VOV FM98"
+            "VOV HỒ CHÍ MINH"
         ]
     },
     "Register_Device": "false",
@@ -145,13 +143,13 @@
     "Start_config": {
         "Startup_file": "new_main",
         "Startup_voice": "on",
-        "Read_IP": "on"
+        "Read_IP": "off"
     },
     "TextToSpeech": {
-        "Choice": "etts",
+        "Choice": "ztts",
         "Speed": 0.9,
         "Quality": 1,
-        "Voice_Gender": "Male",
+        "Voice_Gender": "Female",
         "Voice_Region": "South",
         "Zalo_API": [
             "E8mpp9RGC2rBAV6I58AXD3LFQtDXE9TS",
@@ -170,10 +168,10 @@
             "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
-        "Wakeword_Engine_Google": "off",
+        "Wakeword_Engine_Google": "on",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "v2",
-        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931",
+        "access_key": "xxxxx=",
         "sensitivities": 0.3
     },
     "Weather": {
@@ -191,12 +189,12 @@
         "server": "http:\/\/150.230.60.61:5000"
     },
     "Ask_again": {
-        "control": "off"
+        "control": "on"
     },
     "led_setup": {
         "control": "on",
         "pixels": 12,
-        "type": "r2m"
+        "type": "r4m"
     },
     "vol_setup": {
         "amixer_controls": "Master",
