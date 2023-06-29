@@ -22,16 +22,18 @@ tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .aso
 --------------------------
 * Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:8888 hoặc hostname:8888
  * Mặc định phím bấm, Để thay đổi vào setting cài đặt lại
+```sh
       Phím: Volume - , Mức logic: 0, GPIO: 26
       Phím: Volume + , Mức logic: 0, GPIO: 22
       Phím: Play/stop, Mức logic: 0, GPIO: 13
       Phím: Assistant, Mức logic: 0, GPIO: 25 (nhấn single để gọi nhanh Asistant, nhấn double để bật tắt mic)
-
-*Để bật tắt chế độ nghe liên tục hãy thay đổi on/off ở dòng sau trong config.json
-     
+```
+* Để bật tắt chế độ nghe liên tục hãy thay đổi on/off ở dòng sau trong config.json
+```sh
      "Ask_again": {
          "control": "on"
      },
+```
 --------------------------
 # Revision: 19052023
 --------------------------
