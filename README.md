@@ -17,6 +17,14 @@ sudo nano /usr/share/alsa/alsa.conf
 tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .asoundrc
 
 ```
+--------------------------
+# Revision:19052023
+--------------------------
+Mặc định phím bấm, Để thay đổi vào setting cài đặt lại
+Phím: Volume - , Mức logic: 0, GPIO: 26
+Phím: Volume + , Mức logic: 0, GPIO: 22
+Phím: Play/stop, Mức logic: 0, GPIO: 13
+Phím: Assistant, Mức logic: 0, GPIO: 25 (nhấn single để gọi nhanh Asistant, nhấn double để bật tắt mic)
 
 --------------------------
 # Revision:19052023
