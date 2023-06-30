@@ -1,12 +1,12 @@
 {
 	"keyword": {
-		"app_lunar_calendar": [
+		"app__lunar__calendar": [
 			"ngày âm",
 			"lịch âm",
 			"mồng mấy",
 			"mùng mấy"
 		],
-		"app_read_story": [
+		"app__read__story": [
 			"truyện cười",
 			"kể truyện",
 			"đọc truyện",
@@ -14,7 +14,7 @@
 			"câu chuyệN",
 			"kể chuyện"
 		],
-		"app_music_play": [
+		"app__music__play": [
 			"phát bài",
 			"phát nhạc",
 			"chơi nhạc",
@@ -26,12 +26,12 @@
 			"mở video",
 			"mở phim"
 		],
-		"app_radio_play": [
+		"app__radio__play": [
 			"nghe đài",
 			"radio",
 			"phát thanh"
 		],
-		"app_music_auto": [
+		"app__music__auto": [
 			"nghe playlist",
 			"nghe danh sách",
 			"phát danh sách",
@@ -42,47 +42,47 @@
 			"list nhạc",
 			"abum nhạc"
 		],
-		"app_chromecast_play": [
+		"app__chromecast__play": [
 			"cast",
 			"truyền phim",
 			"chuyền phim"
 		],
-		"app_custom_weather": [
+		"app__custom__weather": [
 			"dự báo thời tiết",
 			"mưa hay nắng",
 			"thời tiết"
 		],
-		"app_news_radio": [
+		"app__news__radio": [
 			"đọc báo",
 			"báo nói",
 			"tin mới",
 			"tin tức"
 		],
-		"app_read_note": [
+		"app__read__note": [
 			"sinh nhật của",
 			"ngày sinh của",
 			"ngày sinh"
 		],
-		"app_stop_music": [
+		"app__stop__music": [
 			"tắt nhạc",
 			"dừng nhạc",
 			"stop music"
 		],
-		"app_next_player": [
+		"app__next__player": [
 			"tiếp theo",
 			"kế tiếp"
 		],
-		"app_pause_player": [
+		"app__pause__player": [
 			"tạm dừng"
 		],
-		"app_continue_player": [
+		"app__continue__player": [
 			"tiếp tục"
 		],
-		"app_previous_player": [
+		"app__previous__player": [
 			"phát lại",
 			"chơi lại"
 		],
-		"app_volume_ctr": [
+		"app__volume__ctr": [
 			"tăng âm",
 			"giảm âm",
 			"âm thanh",
@@ -92,135 +92,158 @@
 			"thoát",
 			"to lên"
 		],
-		"app_sent_voice": [
+		"app__sent__voice": [
 			"gọi điện",
 			"lời nhắn"
 		],
-		"app_change_voice": [
+		"app__change__voice": [
 			"đổi giọng",
 			"lời đọc"
 		],
-		"app_sent_sms": [
+		"app__sent__sms": [
 			"nhắn tin",
 			"tin nhắn"
 		],
-		"app_read_ip": [
+		"app__read__ip": [
 			"ip",
 			"địa chỉ"
 		],
-		"sma_on_all": [
+		"sma__turn_on__all": [
 			"bật tất cả",
 			"bật hết",
 			"bật toàn bộ",
 			"bật các"
 		],
-		"sma_off_all": [
+		"sma__turn_off__all": [
 			"tắt tất cả",
 			"tắt hết",
 			"tắt toàn bộ",
 			"tắt các"
 		],
-		"sma_on_automation": [
+		"sma__turn_turn_on__automation": [
 			"bật tự động"
 		],
-		"sma_off_automation": [
+		"sma__turn_off__automation": [
 			"tắt tự động",
 			"vô hiệu tự động"
 		],
-		"sma_trigger_automation": [
+		"sma__trigger__automation": [
 			"kích hoạt"
 		],
-		"sma_on_script": [
+		"sma__turn_on__script": [
 			"bật kịch bản",
 			"chạy kịch bản"
 		],
-		"sma_off_script": [
+		"sma__turn_off__script": [
 			"tắt kịch bản",
 			"dừng kịch bản"
 		],
-		"sma_toggle_script": [
+		"sma__toggle__script": [
 			"đổi kịch bản"
 		],
-		"sma_on_light": [
+		"sma__turn_on__light": [
 			"mở đèn",
 			"bật đèn"
 		],
-		"sma_off_light": [
+		"sma__turn_off__light": [
 			"tắt đèn",
 			"ngắt đèn"
 		],
-		"sma_on_switch": [
+		"sma__turn_on__switch": [
 			"bật công tắc",
 			"mở công tắc",
 			"bật điện"
 		],
-		"sma_off_switch": [
+		"sma__turn_off__switch": [
 			"tắt công tắc",
 			"ngắt công tắc"
 		],
-		"sma_on_climate": [
+		"sma__turn_on__climate": [
 			"bật điều hòa",
 			"mở điều hòa",
 			"bật máy lạnh"
 		],
-		"sma_set_climate": [
-			"điều chỉnh",
-			"chế độ "
+		"sma__set_hvac_mode__climate": [
+			"chế độ",
+			"đặt chế độ"
 		],
-		"sma_off_climate": [
+		"sma__set_fan_mode__climate": [
+			"tốc độ quạt điều hoà",
+			"quạt điều hoà quay",
+			"tốc độ quạt máy lạnh"
+		],
+		"sma__set_fan_mode__climate": [
+			"tốc độ quạt điều hoà",
+			"quạt điều hoà quay",
+			"tốc độ quạt máy lạnh"
+		],
+		"sma__turn_off__climate": [
 			"tắt điều hòa",
 			"tắt máy lạnh"
 		],
-		"sma_on_vacuum": [
+		"sma__turn_on__vacuum": [
 			"bật robot",
 			"bật máy hút bụi"
 		],
-		"sma_off_vacuum": [
+		"sma__turn_off__vacuum": [
 			"tắt robot",
 			"tắt máy hút bụi"
 		],
-		"sma_on_socket": [
+		"sma__turn_on__socket": [
 			"bật ổ cắm",
 			"đóng điện ổ cắm",
 			"mở điện ổ cắm",
 			"mở nguồn ổ cắm"
 		],
-		"sma_off_socket": [
+		"sma__turn_off__socket": [
 			"tắt ổ cắm",
 			"ngắt ổ cắm",
 			"ngắt nguồn ổ cắm"
 		],
-		"sma_open_cover": [
+		"sma__open_cover__cover": [
 			"mở rèm",
-			"kéo rèm"
+			"kéo rèm lên",
+			"kéo rèm ra"
 		],
-		"sma_stop_cover": [
-			"dừng kéo rèm",
-			"ngừng kéo rèm"
-		],
-		"sma_close_cover": [
+		"sma__close_cover__cover": [
 			"đóng rèm",
-			"kéo rèm"
+			"kéo rèm xuống",
+			"kéo rèm vào"
 		],
-		"sma_on_fan": [
+		"sma__stop_cover__cover": [
+			"dừng kéo rèm",
+			"ngừng kéo lên"
+		],
+		"sma__open_covertilt__cover": [
+			"mở rèm nghiêng",
+			"kéo rèm nghiêng"
+		],
+		"sma__stop__covertilt__cover": [
+			"dừng kéo rèm nghiêng"
+		],
+		"sma__close__covertilt__cover": [
+			"đóng rèm nghiêng",
+			"kéo rèm nghiêng lại"
+		],
+		"sma__turn_on__fan": [
 			"bật quạt",
 			"mở quạt"
 		],
-		"sma_off_fan": [
+		"sma__turn_off__fan": [
 			"tắt quạt"
 		],
-		"sma_schedule_": [
+		"sma__schedule__": [
 			"hẹn giờ",
 			"đặt giờ"
 		],
-		"sma_input_": [
+		"sma__input__": [
 			"nhập vào",
 			"điền vào",
 			"chọn mục",
 			"đầu vào",
 			"mục nhập"
 		],
-		"sma_status_sensor": [
+		"sma__status__sensor": [
 			"kiểm tra",
 			"trạng thái",
 			"đóng hay mởi",
@@ -229,11 +252,11 @@
 			"hiển thị",
 			"thông tin"
 		],
-		"sma_status_tracker": [
+		"sma__status__tracker": [
 			"vị trí",
 			"ở đâu"
 		],
-		"cus_fire_name": [
+		"cus__fire__name": [
 			"chuẩn bị tên lửa"
 		]
 	},
