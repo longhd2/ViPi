@@ -62,11 +62,11 @@
         "ir": 12
     },
     "Home_Assistant": {
-        "control": "off",
+        "control": "on",
         "external_url": "http:\/\/vipi.duckdns.org:8123",
         "internal_url": "http:\/\/192.168.1.150:8123",
         "ratio": 75,
-        "token": "XXXX.eyJpc3MiOiIwNmE1NmQxMDNkOWM0OTZlODg3MWU2OWUzYjY4ZjU5YyIsImlhdCI6MTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnY"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIwNmE1NmQxMDNkOWM0OTZlODg3MWU2OWUzYjY4ZjU5YyIsImlhdCI6MTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnY"
     },
     "IR": {
         "Control": "off",
@@ -119,34 +119,17 @@
             "truyện cây khế"
         ]
     },
-    "Radio": {
-        "Control": "on",
-        "links": [
-            "http:\/\/media.kythuatvov.vn:1936\/live\/VOV1.sdp\/playlist.m3u8",
-            "http:\/\/stream2.mobiradio.vn\/vovradio\/vov2.stream\/chunklist.m3u8",
-            "http:\/\/stream2.mobiradio.vn\/vovradio\/vov3.stream\/chunklist.m3u8",
-            "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthn.stream\/chunklist.m3u8",
-            "http:\/\/stream2.mobiradio.vn\/vovradio\/vovgthcm.stream\/chunklist.m3u8"
-        ],
-        "names": [
-            "VOV1",
-            "VOV2",
-            "VOV3",
-            "VOV HÀ NỘI",
-            "VOV HỒ CHÍ MINH"
-        ]
-    },
     "Register_Device": "false",
     "SpeechToText": {
         "Choice": "google"
     },
     "Start_config": {
         "Startup_file": "new_main",
-        "Startup_voice": "on",
+        "Startup_voice": "off",
         "Read_IP": "off"
     },
     "TextToSpeech": {
-        "Choice": "ztts",
+        "Choice": "gtts",
         "Speed": 0.9,
         "Quality": 1,
         "Voice_Gender": "Female",
@@ -157,21 +140,20 @@
         ]
     },
     "Wakewords": {
-        "Picovoice_wakeword_models": [
-            "\/home\/pi\/ViPi\/resources\/picovoice_models\/hey siri_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models\/ok google_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models\/alexa_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models\/hey google_raspberry-pi.ppn"
+        "Picovoice_wakeword_models_en": [
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_en\/hey siri_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_en\/ok google_raspberry-pi.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_en\/alexa_raspberry-pi.ppn"
         ],
-        "Picovoice_wakeword_models_v2": [
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_V2\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
+        "Picovoice_wakeword_models_vi": [
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
         "Wakeword_Engine_Google": "on",
         "Wakeword_Engine_Picovoice": "on",
-        "wakeword_models": "v2",
-        "access_key": "xxxxx=",
+        "wakeword_models": "vi",
+        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
         "sensitivities": 0.3
     },
     "Weather": {
