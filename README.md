@@ -18,6 +18,14 @@ tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .aso
 
 ```
 --------------------------
+# Revision: 05-09-2023
+--------------------------
+* Thay đổi hiệu ứng Led APA Echo, bổ sung Màu cho led âm lượng
+* Đơn giản cách thức hoạt động của cus_skill
+* Thay đổi giao diện mới (+ thêm nhiều lỗi mới)
+* Thay đổi nguồn tìm kiếm nhạc mặc định sang Youtube
+```
+--------------------------
 # Revision: 30062023
 --------------------------
 * Để dùng bản mới nhất vui lòng bấm cập nhật trên Wed: IP:8888 hoặc hostname:8888
