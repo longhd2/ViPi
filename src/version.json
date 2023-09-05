@@ -5,6 +5,7 @@
     "Changelog": [
       "Thay đổi hiệu ứng Led APA Echo.",
       "Bổ sung màu cho đèn âm lượng.",
+      "Bổ sung skill update",
       "Thêm trạng thái đèn LED nhấp nháy khi có lỗi xảy ra.",
       "Đơn giản hóa cách thức hoạt động của cus_skill.",
       "Thay đổi giao diện mới (và thêm nhiều lỗi mới).",
