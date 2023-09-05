@@ -3,13 +3,11 @@
     "ViPi": "2.0",
     "Revision": "05-09-2023",
     "Changelog": [
-      "Thay đổi hiệu ứng Led APA Echo.",
-      "Bổ sung màu cho đèn âm lượng.",
-      "Bổ sung skill update",
-      "Thêm trạng thái đèn LED nhấp nháy khi có lỗi xảy ra.",
-      "Đơn giản hóa cách thức hoạt động của cus_skill.",
+      "bổ sung hiệu loa Echo dot, đèn báo âm lượng, đèn báo lỗi cho Led APA.",
+      "Bổ sung skill update chương trình bằng voice",
+      "Đơn giản hóa cách thức hoạt động của custom skill.",
       "Thay đổi giao diện mới (và thêm nhiều lỗi mới).",
-      "Thay đổi nguồn tìm kiếm nhạc mặc định sang Youtube."
+      "Thay đổi nguồn tìm kiếm nhạc mặc định sang You tút."
     ]
   }
 }
