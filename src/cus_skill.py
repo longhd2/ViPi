@@ -33,7 +33,7 @@ import random
 #hàm chúc mừng sinh nhật
 def cus__happy__birthday(skill,data):
     answers = [
-        "Chúc mừng sinh nhật! Mong rằng bạn có một ngày thật vui vẻ và đầy ý nghĩa.",
+        "Chúc mừng sinh nhật! Mong rằng bạn có một ngày thật vui vẻ và đầy ý nghĩa a.",
         "Chúc mừng sinh nhật! Hy vọng năm mới của bạn sẽ đem lại nhiều thành công và niềm vui.",
         "Happy birthday! Chúc bạn luôn khỏe mạnh, hạnh phúc và thành công trong cuộc sống.",
         "Sinh nhật vui vẻ! Hãy tận hưởng ngày đặc biệt này cùng gia đình và bạn bè của bạn."
