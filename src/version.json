@@ -1,6 +1,14 @@
 {
-  "Version":{
-    "ViPi":2.0,
-    "Revision": "05-09-2023"
+  "Version": {
+    "ViPi": "2.0",
+    "Revision": "05-09-2023",
+    "Changelog": [
+      "Thay đổi hiệu ứng Led APA Echo.",
+      "Bổ sung màu cho đèn âm lượng.",
+      "Thêm trạng thái đèn LED nhấp nháy khi có lỗi xảy ra.",
+      "Đơn giản hóa cách thức hoạt động của cus_skill.",
+      "Thay đổi giao diện mới (và thêm nhiều lỗi mới).",
+      "Thay đổi nguồn tìm kiếm nhạc mặc định sang Youtube."
+    ]
   }
 }
