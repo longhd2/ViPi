@@ -1,5 +1,5 @@
 {
-    "Boss": "Hà Long",
+    "Boss": "Minh Anh",
     "Pushbullet": {
         "Control": "off",
         "Names": [
@@ -56,8 +56,8 @@
         "gpio_logic": 0,
         "gpio_center": 0,
         "gpio_down": 25,
-        "gpio_left": 26,
-        "gpio_right": 22,
+        "gpio_left": 22,
+        "gpio_right": 26,
         "gpio_up": 13,
         "ir": 12
     },
@@ -65,8 +65,8 @@
         "control": "on",
         "external_url": "http:\/\/vipi.duckdns.org:8123",
         "internal_url": "http:\/\/192.168.1.150:8123",
-        "ratio": 75,
-        "token": "XXXXXXXXXXXXX.eyJpc3MiOiIwNmE1NmQxMDNkOWM0OTZlODg3MWU2OWUzYjY4ZjU5YyIsImlhdCI6MTY4MDQwMjg3MywiZXhwIjoxOTk1NzYyODczfQ.U5l6pk3RqT0VEpV2KnUeR5i8rppRGTpdM3EozKj6vnY"
+        "ratio": 90,
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MWI4NzlhZmNmNDM0OGNjOTViZjg5N2NiYWI0MjQ1YSIsImlhdCI6MTY5MzcyNjIyMiwiZXhwIjoyMDA5MDg2MjIyfQ.9WPrmfEOiLeMEK4pYswD90KWsTe-2Jh9Dtbyh5hvV34"
     },
     "IR": {
         "Control": "off",
@@ -129,7 +129,7 @@
         "Read_IP": "off"
     },
     "TextToSpeech": {
-        "Choice": "gtts",
+        "Choice": "etts",
         "Speed": 0.9,
         "Quality": 1,
         "Voice_Gender": "Female",
@@ -150,11 +150,11 @@
             "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
-        "Wakeword_Engine_Google": "on",
+        "Wakeword_Engine_Google": "off",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "vi",
-        "access_key": "XXXXXXXXXXXXXXXXXXXXXXX==",
-        "sensitivities": 0.3
+        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
+        "sensitivities": 0.5
     },
     "Weather": {
         "control": "off",
@@ -164,7 +164,7 @@
             11.555358,
             106.172483
         ],
-        "location": "Tam Kỳ, Quảng Nam"
+        "location": "Thành phố Tam Kỳ, Quảng Nam"
     },
     "YouTube": {
         "YouTube_Control": "off",
@@ -183,6 +183,6 @@
         "number_cards": "1",
         "volume_max": 100,
         "volume_min": 0,
-        "volume_start": 80
+        "volume_start": 70
     }
 }
