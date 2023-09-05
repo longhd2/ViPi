@@ -66,7 +66,7 @@
         "external_url": "http:\/\/vipi.duckdns.org:8123",
         "internal_url": "http:\/\/192.168.1.150:8123",
         "ratio": 90,
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MWI4NzlhZmNmNDM0OGNjOTViZjg5N2NiYWI0MjQ1YSIsImlhdCI6MTY5MzcyNjIyMiwiZXhwIjoyMDA5MDg2MjIyfQ.9WPrmfEOiLeMEK4pYswD90KWsTe-2Jh9Dtbyh5hvV34"
+        "token": "yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MWI4NzlhZmNmNDM0OGNjOTViZjg5N2NiYWI0MjQ1YSIsImlhdCI6MTY5MzcyNjIyMiwiZXhwIjoyMDA5MDg2MjIyfQ.9WPrmfEOiLeMEK4pYswD90KWsTe-2Jh9Dtbyh5hvV34"
     },
     "IR": {
         "Control": "off",
@@ -153,7 +153,7 @@
         "Wakeword_Engine_Google": "off",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "vi",
-        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
+        "access_key": "g4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
         "sensitivities": 0.5
     },
     "Weather": {
