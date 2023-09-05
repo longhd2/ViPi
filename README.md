@@ -18,7 +18,7 @@ tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .aso
 
 ```
 --------------------------
-# Revision: 05-09-2023
+# Revision: 05-09-2023.
 --------------------------
 * Thay đổi hiệu ứng Led APA Echo, bổ sung Màu cho led âm lượng, thêm trạng thái đèn led nhấp nháy khi có lỗi xảy ra
 * Đơn giản cách thức hoạt động của cus_skill
