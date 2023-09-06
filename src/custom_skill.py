@@ -4,13 +4,13 @@
 
 ###########################
 #	"keyword": {
-#		"cus__skill__1": [
+#		"skill__skill__1": [
 #			"key 1",
 #			"key 2",
 #			"key 3",
 #			"key 4"
 #		],
-#		"cus__skill__2": [
+#		"skill__skill__2": [
 #			"key 1",
 #			"key 2",
 #			"key 3",
@@ -18,11 +18,11 @@
 #		]
 #	},
 # Ví dụ với skill Happy__Birthday:
-#		"cus__happy__birthday": [
+#		"skill__happy__birthday": [
 #			"mừng sinh nhật",
 #			"birthday"
 #		]
-#		"cus__happy__new__year": [
+#		"skill__happy__new__year": [
 #			"chúc tết",
 #			"tết nguyên đán"
 #		]
@@ -31,7 +31,7 @@
 import random
 
 #hàm chúc mừng sinh nhật
-def cus__happy__birthday(skill,data):
+def skill__happy__birthday(skill,data):
     answers = [
         "Chúc mừng sinh nhật! Mong rằng bạn có một ngày thật vui vẻ và đầy ý nghĩa a .",
         "Chúc mừng sinh nhật! Hy vọng năm mới của bạn sẽ đem lại nhiều thành công và niềm vui",
@@ -41,7 +41,7 @@ def cus__happy__birthday(skill,data):
     answer = random.choice(answers)
     return answer, True
 #hàm chúc Tết
-def cus__happy__new__year(skill,data):
+def skill__happy__new__year(skill,data):
     answers = [
         "Chúc mừng năm mới! Mong rằng năm mới mang lại nhiều niềm vui, thành công và sức khỏe cho bạn.",
         "Chúc mừng năm mới! Hy vọng năm mới sẽ đem lại nhiều cơ hội và thành tựu lớn cho bạn.",
