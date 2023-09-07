@@ -151,47 +151,53 @@
 						<form method="post">
 							<h2 class="title-box">Cấu hình chung <span></h2>
 							<div class="text-input-config">
-								Tên của bạn  <input name="vipiname" placeholder="{{boss}}">
-								Vị trí của bạn <input name="location" placeholder="{{location}}" >
-								Bật âm thanh khởi động (on/off)<input name="startup_sound" placeholder="{{startup_sound}}">
-								Âm lượng khởi động (0-100)<input name="volume" placeholder="{{volume}}">
-								Đọc IP (on/off)<input name="get_ip" placeholder="{{get_ip}}">
+								Tên của bạn: {{boss}}<input name="vipiname" placeholder="{{boss}}">
+								Vị trí của bạn: {{location}} <input name="location" placeholder="{{location}}" >
+								Bật âm thanh khởi động (on/off): {{startup_sound}}<input name="startup_sound" placeholder="{{startup_sound}}">
+								Bật hỏi đáp liên tục (on/off): {{Ask_again}}<input name="Ask_again" placeholder="{{Ask_again}}">
+								Âm lượng khởi động (0-100): {{volume}}<input name="volume" placeholder="{{volume}}">
+								Đọc IP (on/off): {{get_ip}}<input name="get_ip" placeholder="{{get_ip}}">
 							</div>
-							<h2 class="title-box">Cấu hình giọng nói</h2>
+							<h2 class="title-box">Cấu hình Wakeup</h2>
 							<div class="text-input-config">
-								STT: Nhận dạng âm thanh (ok_google,google_sdk only CPU ArmV7, ArmV8, google_free, Zalo)<input name="stt" placeholder="{{stt}}">
-								TTS: Giọng đọc  (ZTTS, GTTS, ETTS)<input name="tts" placeholder="{{tts}}">
-								Access_key Picovoice <input name="access_key" placeholder="{{access_key}}">
-								Độ nhạy Picovoice(Picovoice only 0.3 - 1.0)<input name="sensitivities" placeholder="{{sensitivities}}">
-								Giới tính giọng đọc (Male/Female)<input name="gender" placeholder="{{gender}}">
-								Vùng giọng đọc (Zalo only - South or North)<input name="region" placeholder="{{region}}">
+								Ngôn ngữ Wakeup(EN/VI): {{wakeword_models}}<input name="wakeword_models" placeholder="{{wakeword_models}}">
+								Access_key https://console.picovoice.ai/<input name="access_key" placeholder="{{access_key}}">
+								Độ nhạy Wakeup(0.3 - 1.0): {{sensitivities}}<input name="sensitivities" placeholder="{{sensitivities}}">
+							</div>
+							<h2 class="title-box">Cấu hình giọng đọc</h2>
+							<div class="text-input-config">
+								STT: Nhận dạng âm thanh (Google/Zalo): {{stt}}<input name="stt" placeholder="{{stt}}">
+								TTS: Giọng đọc (ZTTS, GTTS, ETTS): {{tts}} <input name="tts" placeholder="{{tts}}">
+								Giới tính giọng đọc (Male/Female): {{gender}}<input name="gender" placeholder="{{gender}}">
+								Vùng giọng đọc (Zalo only - South or North): {{region}}<input name="region" placeholder="{{region}}">
 								Tốc độ giọng đọc (Zalo only 0-1)<input name="speed" placeholder="{{speed}}">
-								Chất lượng giọng đọc (Zalo only Cao: 1/Thấp: 0)<input name="quality" placeholder="{{quality}}">
+								Chất lượng giọng đọc (Zalo only Cao: 1/Thấp: 0): {{quality}} <input name="quality" placeholder="{{quality}}">
 							</div>
 							<h2 class="title-box">Cấu hình HASS</h2>
 							<div class="text-input-config">
-								Bật điều khiển Home_Assistant(on/off) <input name="Home_Assistant_control" placeholder="{{Home_Assistant_control}}">
-								Liên kết ngoài <input name="external_url" placeholder="{{external_url}}">
-								Liên kết nội bộ<input name="internal_url" placeholder="{{internal_url}}">
-								Độ chính xác<input name="ratiohass" placeholder="{{ratiohass}}">
+								Điều khiển Home_Assistant(on/off): {{Home_Assistant_control}}<input name="Home_Assistant_control" placeholder="{{Home_Assistant_control}}">
+								Liên kết ngoài: {{external_url}} <input name="external_url" placeholder="{{external_url}}">
+								Liên kết nội bộ: {{internal_url}}<input name="internal_url" placeholder="{{internal_url}}">
+								Độ chính xác: {{ratiohass}}<input name="ratiohass" placeholder="{{ratiohass}}">
 								Long-lived token<input name="tokenhass" placeholder="{{tokenhass}}">
 							</div>
 
 							<h2 class="title-box">Cấu hình LED</h2>
 							<div class="text-input-config">
-								Bật điều khiển đèn led (on/off)<input name="mic" placeholder="{{mic}}">
-								Loại led (R2M, R4M, WS2, RUM)<input name="led" placeholder="{{led}}">
-								Số đèn led <input name="pixels" placeholder="{{pixels}}">
+								Điều khiển đèn led (on/off): {{mic}}<input name="mic" placeholder="{{mic}}">
+								Loại led (R2M, R4M, WS2, RUM): {{led}}<input name="led" placeholder="{{led}}">
+								Số đèn led: {{pixels}}<input name="pixels" placeholder="{{pixels}}">
+								Chọn hiệu ứng cho Led (only Led APA - Echo or Google): {{effect}} <input name="effect" placeholder="{{effect}}">
 							</div>	
 
 							<h2 class="title-box">Cấu hình GPIOs<span>( <a href="#">Xem hướng dẫn</a> )</span></h2>
 							<div class="text-input-config">
-								Bật điều khiển GPIOs (on/off)<input name="control" placeholder="{{control}}">
+								Điều khiển GPIOs (on/off): {{control}}<input name="control" placeholder="{{control}}">
 								Cấu hình mức logic GPIOs ( 0 or 1) <input name="gpio_logic" placeholder="{{gpio_logic}}">
-								Phím Up    - Stop        (nếu không sử dụng điền số 0 )<input name="gpio_up" placeholder="{{gpio_up}}">
-								Phím Down  - Assistant   (nếu không sử dụng điền số 0 )<input name="gpio_down" placeholder="{{gpio_down}}">
-								Phím Left  - Giảm Volume (nếu không sử dụng điền số 0 )<input name="gpio_left" placeholder="{{gpio_left}}">
-								Phím Right - Tăng Volume (nếu không sử dụng điền số 0 ) <input name="gpio_right" placeholder="{{gpio_right}}">
+								Phím Up    - Stop        (nếu không sử dụng điền số 0 ): {{gpio_up}}<input name="gpio_up" placeholder="{{gpio_up}}">
+								Phím Down  - Assistant   (nếu không sử dụng điền số 0 ): {{gpio_down}}<input name="gpio_down" placeholder="{{gpio_down}}">
+								Phím Left  - Giảm Volume (nếu không sử dụng điền số 0 ): {{gpio_left}}<input name="gpio_left" placeholder="{{gpio_left}}">
+								Phím Right - Tăng Volume (nếu không sử dụng điền số 0 ): {{gpio_right}}<input name="gpio_right" placeholder="{{gpio_right}}">
 								<!-- Phím Center- Reset WIFI  (nếu không sử dụng điền số 0 ) <input name="gpio_center" placeholder="{{gpio_center}}"> -->				<button class="btn-submit reading-btn" type="submit">Lưu cấu hình</button>
 							</div>	
 						</form>
