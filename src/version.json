@@ -1,13 +1,11 @@
 {
   "Version": {
     "ViPi": "2.0",
-    "Revision": "05-09-2023",
+    "Revision": "07-09-2023",
     "Changelog": [
-      "bổ sung hiệu loa Echo dot, đèn báo âm lượng, đèn báo lỗi cho Led APA.",
-      "Bổ sung skill update chương trình bằng voice",
-      "Đơn giản hóa cách thức hoạt động của custom skill.",
-      "Thay đổi giao diện mới (và thêm nhiều lỗi mới).",
-      "Thay đổi nguồn tìm kiếm nhạc mặc định sang You tút."
+      "Thêm hiệu ứng led Google Home cho led APA",
+      "Đưa thêm 1 số config ra UI",
+      "Sau khi cập nhật cần tải và chép đè file config.json để bot hoạt động đúng cách",
     ]
   }
 }
