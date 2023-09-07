@@ -5,7 +5,7 @@
     "Changelog": [
       "Thêm hiệu ứng led Google Home cho led APA",
       "Đưa thêm 1 số config ra UI",
-      "Sau khi cập nhật cần tải và chép đè file config.json để bot hoạt động đúng cách",
+      "Sau khi cập nhật cần tải và chép đè file config.json để bot hoạt động đúng cách"
     ]
   }
 }
