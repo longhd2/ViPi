@@ -45,16 +45,9 @@
             "192.168.1.209"
         ]
     },
-    "Google_Assistant": {
-        "Google_cloud_api_key": "AIzaSyBlN3_7HDNM-ByZaDUUoGi5tItiGZVdo1c",
-        "device_model_id": "new-vipi-dev-new-speaker",
-        "project_id": "new-vipi-dev",
-        "Interprer": "on"
-    },
     "Gpios": {
         "control": "on",
         "gpio_logic": 0,
-        "gpio_center": 0,
         "gpio_down": 25,
         "gpio_left": 22,
         "gpio_right": 26,
@@ -63,10 +56,10 @@
     },
     "Home_Assistant": {
         "control": "on",
-        "external_url": "http:\/\/vipi.duckdns.org:8123",
-        "internal_url": "http:\/\/192.168.1.150:8123",
+        "external_url": "http://vipi.duckdns.org:8123",
+        "internal_url": "http://192.168.1.150:8123",
         "ratio": 90,
-        "token": "yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MWI4NzlhZmNmNDM0OGNjOTViZjg5N2NiYWI0MjQ1YSIsImlhdCI6MTY5MzcyNjIyMiwiZXhwIjoyMDA5MDg2MjIyfQ.9WPrmfEOiLeMEK4pYswD90KWsTe-2Jh9Dtbyh5hvV34"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MWI4NzlhZmNmNDM0OGNjOTViZjg5N2NiYWI0MjQ1YSIsImlhdCI6MTY5MzcyNjIyMiwiZXhwIjoyMDA5MDg2MjIyfQ.9WPrmfEOiLeMEK4pYswD90KWsTe-2Jh9Dtbyh5hvV34"
     },
     "IR": {
         "Control": "off",
@@ -119,12 +112,10 @@
             "truyện cây khế"
         ]
     },
-    "Register_Device": "false",
     "SpeechToText": {
         "Choice": "google"
     },
     "Start_config": {
-        "Startup_file": "new_main",
         "Startup_voice": "off",
         "Read_IP": "off"
     },
@@ -141,40 +132,34 @@
     },
     "Wakewords": {
         "Picovoice_wakeword_models_en": [
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_en\/hey siri_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_en\/ok google_raspberry-pi.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_en\/alexa_raspberry-pi.ppn"
+            "/home/pi/ViPi/resources/picovoice_models_en/hey siri_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_en/ok google_raspberry-pi.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_en/alexa_raspberry-pi.ppn"
         ],
         "Picovoice_wakeword_models_vi": [
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
-            "\/home\/pi\/ViPi\/resources\/picovoice_models_vi\/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
+            "/home/pi/ViPi/resources/picovoice_models_vi/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_vi/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_vi/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
         "Wakeword_Engine_Google": "off",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "vi",
-        "access_key": "g4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
+        "access_key": "ig4J30nReYupu9q6sDv0dIsYVo0i6SBbIHIaq8i931KBYygRH58SeA==",
         "sensitivities": 0.5
     },
     "Weather": {
-        "control": "off",
-        "darksky_api": "c457d056f60c2aa93fd47339aad294da",
-        "ipfy_api": "128979ae3de728602f249354a85ac508",
-        "lat_long": [
-            11.555358,
-            106.172483
-        ],
         "location": "Thành phố Tam Kỳ, Quảng Nam"
     },
-    "YouTube": {
-        "YouTube_Control": "off",
-        "server": "http:\/\/150.230.60.61:5000"
+    "Search_YouTube_Server": {
+        "control": "off",
+        "server_address": "http://150.230.60.61:5000"
     },
     "Ask_again": {
         "control": "on"
     },
     "led_setup": {
         "control": "on",
+        "effect": "Google",
         "pixels": 12,
         "type": "r4m"
     },
