@@ -138,7 +138,6 @@
         ],
         "Picovoice_wakeword_models_vi": [
             "/home/pi/ViPi/resources/picovoice_models_vi/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
-            "/home/pi/ViPi/resources/picovoice_models_vi/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "/home/pi/ViPi/resources/picovoice_models_vi/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "/home/pi/ViPi/resources/picovoice_models_vi/gấu-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
