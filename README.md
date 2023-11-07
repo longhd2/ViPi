@@ -13,7 +13,7 @@ cd seeed-voicecard
 sudo ./install.sh
 
 sudo nano /usr/share/alsa/alsa.conf
-```sh
+```
 tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .asoundrc
 
 
