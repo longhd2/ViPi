@@ -22,8 +22,9 @@ tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .aso
 --------------------------
 * Update MQTT cho Bot để phát thông báo từ Hass sang Bot
 * Có thể phát bằng API nhưng lười
-```
+
 Cài đặt trong config.json trong Bot:
+```sh
     "MQTT": {
         "control": "on",
         "mqtt_bocker": "192.168.1.150",
@@ -31,8 +32,10 @@ Cài đặt trong config.json trong Bot:
         "username": "pi",
         "password": "abc123"
     },
-    
+```
+
 cài đặt trong Hass:
+```sh
 script:
   send_mqtt_message:
     alias: Send MQTT Message
@@ -52,6 +55,7 @@ automation:
         data_template:
           message: >
             Đèn cầu thang đã {{ 'bật' if is_state('switch.sw_staire_1_right', 'on') else 'tắt' }}.
+```
 --------------------------
 # Revision: 05-09-2023.
 --------------------------
