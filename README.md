@@ -16,7 +16,42 @@ sudo nano /usr/share/alsa/alsa.conf
 
 tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .asoundrc
 
+
+--------------------------
+# Revision: 07-11-2023.
+--------------------------
+* Update MQTT cho Bot để phát thông báo từ Hass sang Bot
+* Có thể phát bằng API nhưng lười
 ```
+Cài đặt trong config.json trong Bot:
+    "MQTT": {
+        "control": "on",
+        "mqtt_bocker": "192.168.1.150",
+        "mqtt_topic": "my/mqtt/topic",
+        "username": "pi",
+        "password": "abc123"
+    },
+    
+cài đặt trong Hass:
+script:
+  send_mqtt_message:
+    alias: Send MQTT Message
+    sequence:
+      - service: mqtt.publish
+        data:
+          topic: "my/mqtt/topic"  # Chủ đề MQTT bạn muốn sử dụng
+          payload: "{{ message }}"
+          
+automation:
+  - alias: Phát cảnh báo khi đèn thay đổi trạng thái
+    trigger:
+      - platform: state
+        entity_id: switch.sw_staire_1_right
+    action:
+      - service: script.send_mqtt_message
+        data_template:
+          message: >
+            Đèn cầu thang đã {{ 'bật' if is_state('switch.sw_staire_1_right', 'on') else 'tắt' }}.
 --------------------------
 # Revision: 05-09-2023.
 --------------------------
