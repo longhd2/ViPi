@@ -1,7 +1,8 @@
 # ViPi Assistant
 
-IMG đã cài driver Mic USB: https://drive.google.com/file/d/1YFjD6JKGK988xVYs0a4X9dlci9CsNG4Q/view?usp=sharing  để dùng với MicReSpeaker cài thêm driver cho Mic
-IMG dành cho Mic i2s: https://drive.google.com/file/d/1crcOgbnWCO6qUX5TO337RYOW0kGZQ3zK/view?usp=sharing
+  IMG đã cài driver Mic USB: https://drive.google.com/file/d/1YFjD6JKGK988xVYs0a4X9dlci9CsNG4Q/view?usp=sharing  để dùng với MicReSpeaker cài thêm driver cho Mic.
+
+  IMG dành cho Mic i2s: https://drive.google.com/file/d/1crcOgbnWCO6qUX5TO337RYOW0kGZQ3zK/view?usp=sharing
  - Linux kernel 5.15.84 
  - User/pass Pi :(pi/raspberry)
 
