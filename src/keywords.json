@@ -125,60 +125,21 @@
 			"ip",
 			"địa chỉ"
 		],
-		"smart__turn_on__all": [
-			"bật tất cả",
-			"bật hết",
-			"bật toàn bộ",
-			"bật các"
-		],
-		"smart__turn_off__all": [
-			"tắt tất cả",
-			"tắt hết",
-			"tắt toàn bộ",
-			"tắt các"
-		],
-		"smart__turn_turn_on__automation": [
-			"bật tự động"
-		],
-		"smart__turn_off__automation": [
-			"tắt tự động",
-			"vô hiệu tự động"
-		],
+		
 		"smart__trigger__automation": [
 			"kích hoạt"
 		],
-		"smart__turn_on__script": [
-			"bật kịch bản",
-			"chạy kịch bản"
-		],
-		"smart__turn_off__script": [
-			"tắt kịch bản",
-			"dừng kịch bản"
-		],
+
 		"smart__toggle__script": [
 			"đổi kịch bản"
 		],
-		"smart__turn_on__light": [
-			"mở đèn",
-			"bật đèn"
+		"smart__turn_on__": [
+			"mở",
+			"bật"
 		],
-		"smart__turn_off__light": [
-			"tắt đèn",
-			"ngắt đèn"
-		],
-		"smart__turn_on__switch": [
-			"bật công tắc",
-			"mở công tắc",
-			"bật điện"
-		],
-		"smart__turn_off__switch": [
-			"tắt công tắc",
-			"ngắt công tắc"
-		],
-		"smart__turn_on__climate": [
-			"bật điều hòa",
-			"mở điều hòa",
-			"bật máy lạnh"
+		"smart__turn_off__": [
+			"tắt",
+			"ngắt"
 		],
 		"smart__set_hvac_mode__climate": [
 			"chế độ",
@@ -194,29 +155,7 @@
 			"quạt điều hoà quay",
 			"tốc độ quạt máy lạnh"
 		],
-		"smart__turn_off__climate": [
-			"tắt điều hòa",
-			"tắt máy lạnh"
-		],
-		"smart__turn_on__vacuum": [
-			"bật robot",
-			"bật máy hút bụi"
-		],
-		"smart__turn_off__vacuum": [
-			"tắt robot",
-			"tắt máy hút bụi"
-		],
-		"smart__turn_on__socket": [
-			"bật ổ cắm",
-			"đóng điện ổ cắm",
-			"mở điện ổ cắm",
-			"mở nguồn ổ cắm"
-		],
-		"smart__turn_off__socket": [
-			"tắt ổ cắm",
-			"ngắt ổ cắm",
-			"ngắt nguồn ổ cắm"
-		],
+
 		"smart__open_cover__cover": [
 			"mở rèm",
 			"kéo rèm lên",
@@ -242,13 +181,6 @@
 			"đóng rèm nghiêng",
 			"kéo rèm nghiêng lại"
 		],
-		"smart__turn_on__fan": [
-			"bật quạt",
-			"mở quạt"
-		],
-		"smart__turn_off__fan": [
-			"tắt quạt"
-		],
 		"smart__schedule__": [
 			"hẹn giờ",
 			"đặt giờ"
@@ -260,16 +192,11 @@
 			"đầu vào",
 			"mục nhập"
 		],
-		"smart__status__sensor": [
+		"smart__status__": [
 			"kiểm tra",
 			"trạng thái",
-			"đóng hay mởi",
-			"bật hay tắt",
-			"kiểm tra",
 			"hiển thị",
-			"thông tin"
-		],
-		"smart__status__tracker": [
+			"thông tin",
 			"vị trí",
 			"ở đâu"
 		],
