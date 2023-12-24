@@ -1,9 +1,9 @@
 {
   "Version": {
     "ViPi": "2.0",
-    "Revision": "23-12-2023",
+    "Revision": "24-12-2023",
     "Changelog": [
-      "update control homeassistant"
+      "tăng tốc xử lý"
     ]
   }
 }
