@@ -1,9 +1,9 @@
 {
   "Version": {
     "ViPi": "2.0",
-    "Revision": "24-12-2023",
+    "Revision": "11-02-2024",
     "Changelog": [
-      "tăng tốc xử lý"
+      "fix lỗi xử lý ai"
     ]
   }
 }
