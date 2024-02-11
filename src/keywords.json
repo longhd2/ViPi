@@ -17,15 +17,23 @@
 		"skill__music__play": [
 			"phát bài",
 			"phát nhạc",
-			"chơi nhạc",
 			"mở bài",
 			"ca bài",
 			"bài nhạc",
 			"phát video",
 			"phát phim",
 			"mở video",
-			"mở phim"
+			"mở phim",
+			"nghe playlist",
+			"nghe danh sách",
+			"phát danh sách",
+			"phát playlist",
+			"phát album",
+			"nghe album",
+			"danh sách nhạc",
+			"list nhạc"
 		],
+
 		"skill__news__youtube": [
 			"tổng hợp",
 			"điểm tin",
@@ -92,6 +100,14 @@
 		"skill__previous__player": [
 			"phát lại",
 			"chơi lại"
+		],
+		"skill__get__time": [
+			"mấy giờ",
+			"thời gian"
+		],
+		"skill__get__day": [
+			"ngày mấy",
+			"thứ mấy"
 		],
 		"skill__volume__ctr": [
 			"tăng âm",

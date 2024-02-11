@@ -1,9 +1,16 @@
 {
   "Version": {
-    "ViPi": "2.0",
-    "Revision": "11-02-2024",
+    "ViPi": "2.2",
+    "Revision": "11-2-2024",
     "Changelog": [
-      "fix lỗi xử lý ai"
+      "Nâng cấp trình xử lý, năm 2024 có gì mới?",
+      "Bổ sung hiệu ứng google home mini cho bot xử dụng 4 led APA",
+      "Bổ sung nhiều tính năng có thể on/off ngoài config.json như",
+      "On/off nền WED UI, MQTT, HASS, GPIO, Server tìm nhạc",
+      "Mọi chi tiết vui lòng xem trong cài đặt file config.json, các giá trị mặc định đều được mặc định đặt là off",
+      "Trước tiên hãy vui lòng điền Accensenky của Pico để có thể gọi được bot",
+      "Hỗ trợ phiên bản Raspberry Zero, để chạy mượt trên Zero vui lòng tắt bớt nền WED UI",
+      "Chúc bạn thành công"
     ]
   }
 }

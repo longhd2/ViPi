@@ -46,7 +46,7 @@
         ]
     },
     "Gpios": {
-        "control": "on",
+        "control": "off",
         "gpio_logic": 0,
         "gpio_down": 25,
         "gpio_left": 22,
@@ -56,10 +56,17 @@
     },
     "Home_Assistant": {
         "control": "on",
-        "external_url": "http://vipi.duckdns.org:8123",
-        "internal_url": "http://192.168.1.150:8123",
+        "external_url": "https://XXXXX",
+        "internal_url": "http://192.168XXX",
         "ratio": 90,
-        "token": "eyJhbGciO6IkpXVCJ9.eyJpc3MiOiI2MWI4NzlhZmNmNDM0OGNjOTViZjg5N2NiYWI0MjQ1YSIsImlhdCI6MTY5MzcyNjIyMiwiZXhwIjoyMDA5MDg2MjIyfQ.9WPrmfEOiLeMEK4pYswD90KWsTe-2Jh9Dtbyh5hvV34"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..-XXXX"
+    },
+    "MQTT": {
+        "control": "off",
+        "mqtt_bocker": "192.168.1.150",
+        "mqtt_topic": "my/mqtt/topic",
+        "username": "pi",
+        "password": "Viettel789"
     },
     "IR": {
         "Control": "off",
@@ -120,7 +127,7 @@
         "Read_IP": "off"
     },
     "TextToSpeech": {
-        "Choice": "google nam",
+        "Choice": "nữ google",
         "Speed": 0.9,
         "Quality": 1,
         "Voice_Gender": "off",
@@ -138,21 +145,27 @@
         ],
         "Picovoice_wakeword_models_vi": [
             "/home/pi/ViPi/resources/picovoice_models_vi/Vi-pi-ơi_vn_raspberry-pi_v2_2_0.ppn",
+            "/home/pi/ViPi/resources/picovoice_models_vi/Vi-bi-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "/home/pi/ViPi/resources/picovoice_models_vi/tèo-ơi_vn_raspberry-pi_v2_2_0.ppn",
             "/home/pi/ViPi/resources/picovoice_models_vi/gấu-ơi_vn_raspberry-pi_v2_2_0.ppn"
         ],
         "Wakeword_Engine_Google": "off",
         "Wakeword_Engine_Picovoice": "on",
         "wakeword_models": "vi",
-        "access_key": "xxx=",
+        "access_key": "ig4J30nReYupu9q6sXXXX",
         "sensitivities": 0.3
     },
     "Weather": {
-        "location": "Thành phố Tam Kỳ, Quảng Nam"
+        "location": "Tam Kỳ",
+        "country_code": "VN",
+        "api_key": "2963642aef55a07aaf378ad1dbe9b1c3"
     },
     "Search_YouTube_Server": {
         "control": "off",
-        "server_address": "http://150.230.60.61:5000"
+        "server_address": "http://vipi.duckdns.org"
+    },
+    "User_Interface": {
+        "control": "on"
     },
     "Ask_again": {
         "control": "on"
