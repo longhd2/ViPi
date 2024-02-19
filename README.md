@@ -36,21 +36,29 @@ Cài đặt trong config.json trong Bot:
 cài đặt trong Hass:
 ```sh
 script:
-  send_mqtt_message:
-    alias: Send MQTT Message
+  #Scrip phát thông báo ra loa ViPi
+  phat_loa_vipi:
+    alias: "scrip phat loa vipi"
     sequence:
       - service: mqtt.publish
-        data:
+        data_template:
           topic: "my/mqtt/topic"  # Chủ đề MQTT bạn muốn sử dụng
           payload: "{{ message }}"
-          
+  #Scrip test phát thông báo ra loa ViPi
+  test_play_vipi:
+    alias: "test scrip phát qua loa vipi"
+    sequence:
+      - service: script.phat_loa_vipi
+        data:
+          message: 'đây là scrip test phát nội dung ra loa vipi'
+#Auto phát nội dung ra loa
 automation:
   - alias: Phát cảnh báo khi đèn thay đổi trạng thái
     trigger:
       - platform: state
         entity_id: switch.sw_staire_1_right
     action:
-      - service: script.send_mqtt_message
+      - service: script.phat_loa_vipi
         data_template:
           message: >
             Đèn cầu thang đã {{ 'bật' if is_state('switch.sw_staire_1_right', 'on') else 'tắt' }}.
