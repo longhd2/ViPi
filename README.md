@@ -15,7 +15,17 @@ sudo nano /usr/share/alsa/alsa.conf
 ```
 tìm đến dòng số 14 "~/.asoundrc" và thêm # vào đầu để tắt .asoundrc
 
+# Chạy thủ công ViPi:
+vào IP:/9001 với user/pass vipi/vipi bấm stop
 
+chạy các lệnh sau để chạy thủ công
+```sh
+    source env/bin/activate
+    pkill -9 python
+    cd ViPi
+    cd src
+    python3 start.py
+```
 --------------------------
 # Revision: 07-11-2023.
 --------------------------
